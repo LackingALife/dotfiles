@@ -1,0 +1,6 @@
+2023/12/26-17:21:59.199 450 Reusing MANIFEST /home/peter/.config/Element/Local Storage/leveldb/MANIFEST-000001
+2023/12/26-17:21:59.201 450 Recovering log #10
+2023/12/26-17:21:59.204 450 Reusing old log /home/peter/.config/Element/Local Storage/leveldb/000010.log 
+2023/12/26-17:33:59.693 451 Level-0 table #14: started
+2023/12/26-17:33:59.700 451 Level-0 table #14: 8941 bytes OK
+2023/12/26-17:33:59.702 451 Delete type=0 #10

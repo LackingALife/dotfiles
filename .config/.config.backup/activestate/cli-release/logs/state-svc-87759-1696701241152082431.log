@@ -1,0 +1,28 @@
+[DBG 18:54:01.152 defaults.go:101] Args: [/home/peter/.komodoide/12.0/XRE/state/bin/state-svc foreground /home/peter/.komodoide/12.0/XRE/state/bin/state _prepare]
+[DBG 18:54:01.152 listeners.go:18] Adding listener for config key: report.errors
+[DBG 18:54:01.164 locale.go:42] Init
+[DBG 18:54:01.179 instance.go:123] Setting config: Locale
+[DBG 18:54:01.195 rollbar.go:60] Sending Rollbar reports? false
+[DBG 18:54:01.196 output.go:52] Requested outputer for 
+[DBG 18:54:01.196 output.go:57] Using Plain outputer
+[DBG 18:54:01.196 client.go:140] Sending Google Analytics reports? true
+[DBG 18:54:01.196 listeners.go:18] Adding listener for config key: report.analytics
+[DBG 18:54:01.196 listeners.go:18] Adding listener for config key: autostart.svc
+[DBG 18:54:01.196 main.go:170] Running CmdForeground
+[DBG 18:54:01.196 main.go:183] Running in Foreground
+[DBG 18:54:01.196 main.go:189] Logging to "/home/peter/.config/activestate/cli-release/logs/state-svc-87759-1696701241152082431.log"
+[DBG 18:54:01.196 service.go:35] service:Start
+[DBG 18:54:01.198 client.go:140] Sending Google Analytics reports? true
+[DBG 18:54:01.198 listeners.go:18] Adding listener for config key: report.analytics
+[DBG 18:54:01.198 service.go:43] Server starting on port: 46807
+[DBG 18:54:01.199 watcher.go:65] Starting watcher ticker with interval 1m0s
+[DBG 18:54:01.199 server.go:99] waiting for done channel closure
+[DBG 18:54:01.199 client.go:18] Initializing ipc client with socket: /tmp/state-ipc/state-release.sock
+[DBG 18:54:01.200 checker.go:122] Getting update info: https://platform.activestate.com/sv/state-update/api/v1/info?channel=release&platform=linux&source=update
+[DBG 18:54:01.207 comm.go:23] handling ping request
+[DBG 18:54:01.217 resolver.go:165] Analytics event resolver: updates - should-autoupdate
+[DBG 18:54:01.222 resolver.go:165] Analytics event resolver: run-command - _prepare
+[DBG 18:54:01.223 resolver.go:235] Check messages resolver
+[DBG 18:54:01.227 resolver.go:165] Analytics event resolver: command-exit - _prepare
+[DBG 18:54:04.200 svcctl.go:111] Located state-svc at :46807
+[DBG 19:54:01.257 checker.go:122] Getting update info: https://platform.activestate.com/sv/state-update/api/v1/info?channel=release&platform=linux&source=update

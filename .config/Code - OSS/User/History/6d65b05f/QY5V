@@ -1,0 +1,13 @@
+First varaint somewhat working although in a non expandable structure
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch first_variant
+# Changes to be committed:
+#	modified:   board.c
+#	modified:   file.c
+#	modified:   main.c
+#	modified:   makefile
+#	new file:   move.c
+#	modified:   tileblaster.h
+#

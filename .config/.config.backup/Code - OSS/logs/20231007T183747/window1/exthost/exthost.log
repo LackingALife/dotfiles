@@ -1,0 +1,10 @@
+2023-10-07 18:37:51.309 [info] Extension host with pid 37528 started
+2023-10-07 18:37:51.309 [info] Skipping acquiring lock for /home/peter/.config/Code - OSS/User/workspaceStorage/9bd86d69616a7abe756c563e5b16e895.
+2023-10-07 18:37:51.409 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-07 18:37:51.420 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-07 18:37:51.467 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-07 18:37:51.558 [info] Eager extensions activated
+2023-10-07 18:37:51.603 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-07 18:37:51.607 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-07 18:39:15.662 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-07 18:39:15.671 [info] Extension host with pid 37528 exiting with code 0

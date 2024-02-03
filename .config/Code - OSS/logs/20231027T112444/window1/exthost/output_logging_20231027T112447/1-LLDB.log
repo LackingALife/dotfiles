@@ -1,0 +1,34 @@
+Initial debug configuration: {
+  type: 'lldb',
+  request: 'launch',
+  name: 'Debug',
+  program: '${workspaceFolder}/proj/tileblaster',
+  args: [],
+  cwd: '${workspaceFolder}',
+  __configurationTarget: 6
+}
+Resolved debug configuration: {
+  type: 'lldb',
+  request: 'launch',
+  name: 'Debug',
+  program: '${workspaceFolder}/proj/tileblaster',
+  args: [],
+  cwd: '${workspaceFolder}',
+  __configurationTarget: 6,
+  relativePathBase: '/mnt/USB_Drive/peterpen/ist/aed/proj-and-test',
+  _adapterSettings: {
+    displayFormat: 'auto',
+    showDisassembly: 'auto',
+    dereferencePointers: true,
+    suppressMissingSourceFiles: true,
+    evaluationTimeout: 5,
+    consoleMode: 'commands',
+    sourceLanguages: null,
+    terminalPromptClear: null,
+    evaluateForHovers: true,
+    commandCompletions: true,
+    reproducer: false
+  }
+}
+[ERROR codelldb::debug_session] unable to find executable for '/mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/tileblaster'
+Debug adapter exit code=0 (0x0), signal=null.

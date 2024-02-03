@@ -1,0 +1,91 @@
+2023-10-26 15:12:58.068 [info] Log level: Info
+2023-10-26 15:12:58.068 [info] Validating found git in: "git"
+2023-10-26 15:12:58.068 [info] Using git "2.42.0" from "git"
+2023-10-26 15:12:58.068 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-26 15:12:58.068 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-26 15:12:58.084 [info] > git rev-parse --show-toplevel [18ms]
+2023-10-26 15:12:58.097 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-26 15:12:58.124 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj
+2023-10-26 15:12:58.158 [info] > git rev-parse --show-toplevel [10ms]
+2023-10-26 15:12:58.158 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-26 15:12:58.159 [info] > git config --get commit.template [21ms]
+2023-10-26 15:12:58.383 [info] > git rev-parse --show-toplevel [205ms]
+2023-10-26 15:12:58.383 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-26 15:12:58.567 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/remake refs/remotes/remake [187ms]
+2023-10-26 15:12:58.645 [info] > git status -z -uall [69ms]
+2023-10-26 15:12:58.658 [info] > git rev-parse --show-toplevel [113ms]
+2023-10-26 15:12:58.659 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-26 15:12:58.731 [info] > git config --get commit.template [25ms]
+2023-10-26 15:12:58.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/remake refs/remotes/remake [18ms]
+2023-10-26 15:12:58.788 [info] > git status -z -uall [8ms]
+2023-10-26 15:12:58.937 [info] > git check-ignore -v -z --stdin [23ms]
+2023-10-26 15:12:59.071 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-26 15:12:59.071 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-26 15:12:59.553 [info] > git fetch [1429ms]
+2023-10-26 15:12:59.553 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-26 15:12:59.578 [info] > git config --get commit.template [11ms]
+2023-10-26 15:12:59.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/remake refs/remotes/remake [3ms]
+2023-10-26 15:12:59.597 [info] > git status -z -uall [5ms]
+2023-10-26 15:12:59.643 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-26 15:12:59.643 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-26 15:12:59.771 [info] > git show --textconv :move.c [10ms]
+2023-10-26 15:12:59.773 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/move.c [3ms]
+2023-10-26 15:12:59.785 [info] > git cat-file -s 26fb926a3e10fd77fc509a0feba9d5f5d0aaf6ec [2ms]
+2023-10-26 15:13:04.329 [info] > git check-ignore -v -z --stdin [1ms]
+2023-10-26 15:17:26.571 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/move.c [3ms]
+2023-10-26 15:17:26.588 [info] > git cat-file -s 26fb926a3e10fd77fc509a0feba9d5f5d0aaf6ec [3ms]
+2023-10-26 15:17:26.617 [info] > git show --textconv :move.c [3ms]
+2023-10-26 15:17:26.750 [info] > git fetch [1384ms]
+2023-10-26 15:17:26.750 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-26 15:17:26.774 [info] > git config --get commit.template [14ms]
+2023-10-26 15:17:26.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/remake refs/remotes/remake [3ms]
+2023-10-26 15:17:26.791 [info] > git status -z -uall [4ms]
+2023-10-26 15:20:28.037 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/move.c [2ms]
+2023-10-26 15:20:28.048 [info] > git cat-file -s 26fb926a3e10fd77fc509a0feba9d5f5d0aaf6ec [2ms]
+2023-10-26 15:20:28.063 [info] > git show --textconv :move.c [3ms]
+2023-10-26 15:20:28.156 [info] > git fetch [1319ms]
+2023-10-26 15:20:28.156 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-26 15:20:28.176 [info] > git config --get commit.template [10ms]
+2023-10-26 15:20:28.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/remake refs/remotes/remake [3ms]
+2023-10-26 15:20:28.191 [info] > git status -z -uall [4ms]
+2023-10-26 15:44:15.505 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/move.c [2ms]
+2023-10-26 15:44:15.516 [info] > git cat-file -s 26fb926a3e10fd77fc509a0feba9d5f5d0aaf6ec [3ms]
+2023-10-26 15:44:15.532 [info] > git show --textconv :move.c [3ms]
+2023-10-26 15:44:15.648 [info] > git fetch [1344ms]
+2023-10-26 15:44:15.648 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-26 15:44:15.670 [info] > git config --get commit.template [12ms]
+2023-10-26 15:44:15.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/remake refs/remotes/remake [4ms]
+2023-10-26 15:44:15.685 [info] > git status -z -uall [4ms]
+2023-10-26 15:44:21.132 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-26 15:44:21.132 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

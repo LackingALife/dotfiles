@@ -1,0 +1,2 @@
+2023-11-12 17:34:51.339 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/peter/Downloads/LabSS-64bit/LabSS/Lab/sistema2.pyc","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-11-12 17:34:53.933 [error] ENOENT: no such file or directory, open '/home/peter/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/peter/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'

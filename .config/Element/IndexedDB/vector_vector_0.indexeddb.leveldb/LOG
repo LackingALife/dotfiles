@@ -1,0 +1,12 @@
+2023/12/26-17:21:59.995 451 Reusing MANIFEST /home/peter/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/26-17:21:59.995 451 Recovering log #30
+2023/12/26-17:22:00.024 451 Reusing old log /home/peter/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/000030.log 
+2023/12/26-18:28:34.835 451 Level-0 table #35: started
+2023/12/26-18:28:34.856 451 Level-0 table #35: 1269209 bytes OK
+2023/12/26-18:28:34.858 451 Delete type=0 #30
+2023/12/26-18:30:07.247 451 Compacting 1@1 + 1@2 files
+2023/12/26-18:30:07.275 451 Generated table #36@1: 8206 keys, 621605 bytes
+2023/12/26-18:30:07.275 451 Compacted 1@1 + 1@2 files => 621605 bytes
+2023/12/26-18:30:07.277 451 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/26-18:30:07.277 451 Delete type=2 #35
+2023/12/26-18:30:07.277 451 Delete type=2 #32

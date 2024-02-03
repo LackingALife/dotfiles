@@ -1,0 +1,25 @@
+2023/12/10-17:59:36.737 26fa2 Reusing MANIFEST /home/peter/.config/thorium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/12/10-17:59:36.738 26fa2 Recovering log #10
+2023/12/10-17:59:36.764 26fa2 Level-0 table #13: started
+2023/12/10-17:59:36.782 26fa2 Level-0 table #13: 1109842 bytes OK
+2023/12/10-17:59:36.785 26fa2 Delete type=0 #10
+2023/12/10-17:59:55.201 26fa3 Level-0 table #16: started
+2023/12/10-17:59:55.226 26fa3 Level-0 table #16: 1901191 bytes OK
+2023/12/10-17:59:55.228 26fa3 Delete type=0 #14
+2023/12/10-17:59:55.229 26fa3 Compacting 4@0 + 1@1 files
+2023/12/10-17:59:55.263 26fa3 Generated table #17@0: 11 keys, 2575336 bytes
+2023/12/10-17:59:55.287 26fa3 Generated table #18@0: 11 keys, 2253164 bytes
+2023/12/10-17:59:55.290 26fa3 Generated table #19@0: 5 keys, 132296 bytes
+2023/12/10-17:59:55.290 26fa3 Compacted 4@0 + 1@1 files => 4960796 bytes
+2023/12/10-17:59:55.292 26fa3 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/12/10-17:59:55.292 26fa3 Delete type=2 #7
+2023/12/10-17:59:55.292 26fa3 Delete type=2 #9
+2023/12/10-17:59:55.292 26fa3 Delete type=2 #11
+2023/12/10-17:59:55.292 26fa3 Delete type=2 #13
+2023/12/10-17:59:55.292 26fa3 Delete type=2 #16
+2023/12/10-18:00:08.019 26fa3 Level-0 table #21: started
+2023/12/10-18:00:08.045 26fa3 Level-0 table #21: 1936316 bytes OK
+2023/12/10-18:00:08.048 26fa3 Delete type=0 #15
+2023/12/10-18:00:18.345 26fa3 Level-0 table #23: started
+2023/12/10-18:00:18.359 26fa3 Level-0 table #23: 1125085 bytes OK
+2023/12/10-18:00:18.362 26fa3 Delete type=0 #20

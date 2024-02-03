@@ -1,0 +1,73 @@
+2023-11-12 16:13:01.301 [info] Log level: Info
+2023-11-12 16:13:01.301 [info] Validating found git in: "git"
+2023-11-12 16:13:01.301 [info] Using git "2.42.1" from "git"
+2023-11-12 16:13:01.301 [info] > git rev-parse --show-toplevel [7ms]
+2023-11-12 16:13:01.301 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:01.301 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-12 16:13:01.301 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:01.301 [info] > git rev-parse --show-toplevel [518ms]
+2023-11-12 16:13:01.301 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:01.303 [info] > git rev-parse --show-toplevel [112ms]
+2023-11-12 16:13:01.304 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:01.328 [info] > git rev-parse --show-toplevel [7ms]
+2023-11-12 16:13:01.328 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:01.904 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-12 16:13:01.904 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:02.117 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-12 16:13:02.117 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-12 16:13:17.197 [info] Log level: Info
+2023-11-12 16:13:17.197 [info] Validating found git in: "git"
+2023-11-12 16:13:17.197 [info] Using git "2.42.1" from "git"
+2023-11-12 16:13:17.197 [info] > git rev-parse --show-toplevel [10ms]
+2023-11-12 16:13:17.197 [info] > git rev-parse --path-format=relative --show-toplevel [23ms]
+2023-11-12 16:13:18.528 [info] > git rev-parse --show-toplevel [103ms]
+2023-11-12 16:13:18.559 [info] > git rev-parse --path-format=relative --show-toplevel [21ms]
+2023-11-12 16:13:18.623 [info] > git rev-parse --show-toplevel [20ms]
+2023-11-12 16:13:18.713 [info] > git rev-parse --show-toplevel [10ms]
+2023-11-12 16:13:18.729 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-12 16:13:18.740 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:13:18.751 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-12 16:13:18.761 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:13:30.525 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-12 16:13:30.535 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:14:27.086 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-12 16:14:27.107 [info] > git rev-parse --path-format=relative --show-toplevel [7ms]
+2023-11-12 16:16:06.365 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-12 16:16:06.379 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:16:07.476 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-12 16:16:07.492 [info] > git rev-parse --path-format=relative --show-toplevel [3ms]
+2023-11-12 16:17:27.409 [info] > git rev-parse --show-toplevel [16ms]
+2023-11-12 16:17:27.427 [info] > git rev-parse --path-format=relative --show-toplevel [4ms]
+2023-11-12 16:18:30.300 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-12 16:18:30.313 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:19:19.220 [info] > git rev-parse --show-toplevel [16ms]
+2023-11-12 16:19:19.234 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2023-11-12 16:20:03.608 [info] > git rev-parse --show-toplevel [42ms]
+2023-11-12 16:20:03.632 [info] > git rev-parse --path-format=relative --show-toplevel [11ms]
+2023-11-12 16:20:50.047 [info] > git rev-parse --show-toplevel [19ms]
+2023-11-12 16:20:50.066 [info] > git rev-parse --path-format=relative --show-toplevel [8ms]
+2023-11-12 16:21:16.159 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-12 16:21:16.175 [info] > git rev-parse --path-format=relative --show-toplevel [4ms]
+2023-11-12 16:21:46.858 [info] > git rev-parse --show-toplevel [17ms]
+2023-11-12 16:21:46.873 [info] > git rev-parse --path-format=relative --show-toplevel [3ms]
+2023-11-12 16:21:48.066 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-12 16:21:48.082 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:23:24.358 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-12 16:23:24.373 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:23:24.983 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-12 16:23:24.999 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:23:30.928 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-12 16:23:30.944 [info] > git rev-parse --path-format=relative --show-toplevel [3ms]
+2023-11-12 16:23:43.919 [info] > git rev-parse --show-toplevel [13ms]
+2023-11-12 16:23:43.941 [info] > git rev-parse --path-format=relative --show-toplevel [5ms]
+2023-11-12 16:27:25.679 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-12 16:27:25.697 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2023-11-12 16:27:52.401 [info] > git rev-parse --show-toplevel [17ms]
+2023-11-12 16:27:52.421 [info] > git rev-parse --path-format=relative --show-toplevel [4ms]

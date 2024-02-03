@@ -1,0 +1,41 @@
+2023-10-07T16:00:29.676Z 0: 
+
+----------------------------------------------
+2023-10-07T16:00:29.715Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.31"}, modulepath: /home/peter/.config/discord/0.0.31/modules
+2023-10-07T16:00:29.733Z 2: ✅ webContents.created web1 ""
+2023-10-07T16:00:29.749Z 3: ✅ window.created win1 "discord"
+2023-10-07T16:00:30.253Z 4: ✅ webContents.did-finish-load web1
+2023-10-07T16:00:37.700Z 5: ✅ webContents.created web2 ""
+2023-10-07T16:00:37.713Z 6: ✅ window.created win2 "Discord"
+2023-10-07T16:00:43.463Z 7: ✅ webContents.did-finish-load web2
+2023-10-07T16:00:43.562Z 8: window.close win1
+2023-10-07T16:00:43.569Z 9: webContents.destroyed web1
+2023-10-07T16:00:43.571Z 10: window.closed win1
+2023-10-07T16:04:14.810Z 11: webContents.destroyed web2
+2023-10-07T16:04:32.612Z 0: 
+
+----------------------------------------------
+2023-10-07T16:04:32.656Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.31"}, modulepath: /home/peter/.config/discord/0.0.31/modules
+2023-10-07T16:04:32.664Z 2: ✅ webContents.created web1 ""
+2023-10-07T16:04:32.666Z 3: ✅ window.created win1 "discord"
+2023-10-07T16:04:33.038Z 4: ✅ webContents.did-finish-load web1
+2023-10-07T16:04:33.465Z 5: ✅ webContents.created web2 ""
+2023-10-07T16:04:33.480Z 6: ✅ window.created win2 "Discord"
+2023-10-07T16:04:39.628Z 7: ✅ webContents.did-finish-load web2
+2023-10-07T16:04:39.727Z 8: window.close win1
+2023-10-07T16:04:39.737Z 9: webContents.destroyed web1
+2023-10-07T16:04:39.739Z 10: window.closed win1
+2023-10-07T19:20:56.464Z 11: window.close win2
+2023-10-09T14:40:29.792Z 0: 
+
+----------------------------------------------
+2023-10-09T14:40:29.821Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.31"}, modulepath: /home/peter/.config/discord/0.0.31/modules
+2023-10-09T14:40:29.855Z 2: ✅ webContents.created web1 ""
+2023-10-09T14:40:29.861Z 3: ✅ window.created win1 "discord"
+2023-10-09T14:40:30.440Z 4: ✅ webContents.did-finish-load web1
+2023-10-09T14:40:31.011Z 5: ✅ webContents.created web2 ""
+2023-10-09T14:40:31.034Z 6: ✅ window.created win2 "Discord"
+2023-10-09T14:40:36.326Z 7: ✅ webContents.did-finish-load web2
+2023-10-09T14:40:36.427Z 8: window.close win1
+2023-10-09T14:40:36.439Z 9: webContents.destroyed web1
+2023-10-09T14:40:36.441Z 10: window.closed win1

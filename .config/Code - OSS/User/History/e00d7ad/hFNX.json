@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Monokai++",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "simple-icons",
+    "tabnine.experimentalAutoImports": true
+}

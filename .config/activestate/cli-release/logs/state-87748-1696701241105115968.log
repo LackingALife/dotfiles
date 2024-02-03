@@ -1,0 +1,221 @@
+[DBG 18:54:01.105 defaults.go:101] Args: [/home/peter/.komodoide/12.0/XRE/state/bin/state _prepare]
+[DBG 18:54:01.105 listeners.go:18] Adding listener for config key: report.errors
+[DBG 18:54:01.117 locale.go:42] Init
+[DBG 18:54:01.134 instance.go:123] Setting config: Locale
+[DBG 18:54:01.149 rollbar.go:60] Sending Rollbar reports? false
+[DBG 18:54:01.149 subshell.go:204] Detected SHELL: zsh
+[DBG 18:54:01.149 output.go:52] Requested outputer for 
+[DBG 18:54:01.149 output.go:57] Using Plain outputer
+[DBG 18:54:01.149 main.go:138] ConfigPath: /home/peter/.config/activestate/cli-release
+[DBG 18:54:01.149 main.go:139] CachePath: /home/peter/.cache/activestate
+[DBG 18:54:01.149 client.go:18] Initializing ipc client with socket: /tmp/state-ipc/state-release.sock
+[DBG 18:54:01.149 svcctl.go:68] Could not locate state-svc, attempting to start it..
+[DBG 18:54:01.149 exeutils.go:151] Executing: /home/peter/.komodoide/12.0/XRE/state/bin/state-svc [foreground /home/peter/.komodoide/12.0/XRE/state/bin/state _prepare]
+[DBG 18:54:01.150 svcctl.go:160] Waiting for service
+[DBG 18:54:01.150 svcctl.go:184] Attempt: 1, timeout: 1ms, total: 1.222µs
+[DBG 18:54:01.151 svcctl.go:184] Attempt: 2, timeout: 4ms, total: 1.314202ms
+[DBG 18:54:01.155 svcctl.go:184] Attempt: 3, timeout: 9ms, total: 5.776812ms
+[DBG 18:54:01.165 svcctl.go:184] Attempt: 4, timeout: 16ms, total: 15.200168ms
+[DBG 18:54:01.181 svcctl.go:184] Attempt: 5, timeout: 25ms, total: 31.581954ms
+[DBG 18:54:01.207 svcctl.go:184] Attempt: 6, timeout: 36ms, total: 57.105529ms
+[DBG 18:54:01.207 svcctl.go:111] Located state-svc at :46807
+[DBG 18:54:01.208 subshell.go:204] Detected SHELL: zsh
+[DBG 18:54:01.208 subshell.go:117] Using binary: /usr/bin/zsh
+[DBG 18:54:01.209 secrets.go:62] secrets-api scheme=https host=platform.activestate.com base_path=/api/secrets/v1
+[DBG 18:54:01.212 secrets.go:62] secrets-api scheme=https host=platform.activestate.com base_path=/api/secrets/v1
+[DBG 18:54:01.215 autoupdate.go:156] Not running auto updates because current command might conflict
+[DBG 18:54:01.216 instance.go:123] Setting config: auto_update_lastcheck
+[DBG 18:54:01.222 cmdcall.go:50] cmdcall
+[DBG 18:54:01.222 svc.go:137] Checking for messages
+[DBG 18:54:01.223 messenger.go:48] Received 0 messages to print
+[DBG 18:54:01.223 prepare.go:93] ExecutePrepare
+[DBG 18:54:01.223 default.go:32] Preparing globaldefault
+[DBG 18:54:01.224 rcfile.go:100] Writing to /home/peter/.bashrc:
+# -- START ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+export PATH="/home/peter/.cache/activestate/bin:$PATH"
+# -- STOP ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+
+[DBG 18:54:01.224 rcfile.go:100] Writing to /home/peter/.zshrc:
+# -- START ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+export PATH="/home/peter/.cache/activestate/bin:$PATH"
+# -- STOP ACTIVESTATE DEFAULT RUNTIME ENVIRONMENT
+
+[DBG 18:54:01.224 zsh.go:99] Writing to /usr/local/share/zsh/site-functions/_state: #compdef _state state
+
+# zsh completion for state                                -*- shell-script -*-
+
+__state_debug()
+{
+    local file="$BASH_COMP_DEBUG_FILE"
+    if [[ -n ${file} ]]; then
+        echo "$*" >> "${file}"
+    fi
+}
+
+_state()
+{
+    local shellCompDirectiveError=1
+    local shellCompDirectiveNoSpace=2
+    local shellCompDirectiveNoFileComp=4
+    local shellCompDirectiveFilterFileExt=8
+    local shellCompDirectiveFilterDirs=16
+
+    local lastParam lastChar flagPrefix requestComp out directive compCount comp lastComp
+    local -a completions
+
+    __state_debug "\n========= starting completion logic =========="
+    __state_debug "CURRENT: ${CURRENT}, words[*]: ${words[*]}"
+
+    # The user could have moved the cursor backwards on the command-line.
+    # We need to trigger completion from the $CURRENT location, so we need
+    # to truncate the command-line ($words) up to the $CURRENT location.
+    # (We cannot use $CURSOR as its value does not work when a command is an alias.)
+    words=("${=words[1,CURRENT]}")
+    __state_debug "Truncated words[*]: ${words[*]},"
+
+    lastParam=${words[-1]}
+    lastChar=${lastParam[-1]}
+    __state_debug "lastParam: ${lastParam}, lastChar: ${lastChar}"
+
+    # For zsh, when completing a flag with an = (e.g., state -n=<TAB>)
+    # completions must be prefixed with the flag
+    setopt local_options BASH_REMATCH
+    if [[ "${lastParam}" =~ '-.*=' ]]; then
+        # We are dealing with a flag with an =
+        flagPrefix="-P ${BASH_REMATCH}"
+    fi
+
+    # Prepare the command to obtain completions
+    requestComp="${words[1]} __complete ${words[2,-1]}"
+    if [ "${lastChar}" = "" ]; then
+        # If the last parameter is complete (there is a space following it)
+        # We add an extra empty parameter so we can indicate this to the go completion code.
+        __state_debug "Adding extra empty parameter"
+        requestComp="${requestComp} \"\""
+    fi
+
+    __state_debug "About to call: eval ${requestComp}"
+
+    # Use eval to handle any environment variables and such
+    out=$(eval ${requestComp} 2>/dev/null)
+    __state_debug "completion output: ${out}"
+
+    # Extract the directive integer following a : from the last line
+    local lastLine
+    while IFS='\n' read -r line; do
+        lastLine=${line}
+    done < <(printf "%s\n" "${out[@]}")
+    __state_debug "last line: ${lastLine}"
+
+    if [ "${lastLine[1]}" = : ]; then
+        directive=${lastLine[2,-1]}
+        # Remove the directive including the : and the newline
+        local suffix
+        (( suffix=${#lastLine}+2))
+        out=${out[1,-$suffix]}
+    else
+        # There is no directive specified.  Leave $out as is.
+        __state_debug "No directive found.  Setting do default"
+        directive=0
+    fi
+
+    __state_debug "directive: ${directive}"
+    __state_debug "completions: ${out}"
+    __state_debug "flagPrefix: ${flagPrefix}"
+
+    if [ $((directive & shellCompDirectiveError)) -ne 0 ]; then
+        __state_debug "Completion received error. Ignoring completions."
+        return
+    fi
+
+    compCount=0
+    while IFS='\n' read -r comp; do
+        if [ -n "$comp" ]; then
+            # If requested, completions are returned with a description.
+            # The description is preceded by a TAB character.
+            # For zsh's _describe, we need to use a : instead of a TAB.
+            # We first need to escape any : as part of the completion itself.
+            comp=${comp//:/\\:}
+
+            local tab=$(printf '\t')
+            comp=${comp//$tab/:}
+
+            ((compCount++))
+            __state_debug "Adding completion: ${comp}"
+            completions+=${comp}
+            lastComp=$comp
+        fi
+    done < <(printf "%s\n" "${out[@]}")
+
+    if [ $((directive & shellCompDirectiveFilterFileExt)) -ne 0 ]; then
+        # File extension filtering
+        local filteringCmd
+        filteringCmd='_files'
+        for filter in ${completions[@]}; do
+            if [ ${filter[1]} != '*' ]; then
+                # zsh requires a glob pattern to do file filtering
+                filter="\*.$filter"
+            fi
+            filteringCmd+=" -g $filter"
+        done
+        filteringCmd+=" ${flagPrefix}"
+
+        __state_debug "File filtering command: $filteringCmd"
+        _arguments '*:filename:'"$filteringCmd"
+    elif [ $((directive & shellCompDirectiveFilterDirs)) -ne 0 ]; then
+        # File completion for directories only
+        local subDir
+        subdir="${completions[1]}"
+        if [ -n "$subdir" ]; then
+            __state_debug "Listing directories in $subdir"
+            pushd "${subdir}" >/dev/null 2>&1
+        else
+            __state_debug "Listing directories in ."
+        fi
+
+        _arguments '*:dirname:_files -/'" ${flagPrefix}"
+        if [ -n "$subdir" ]; then
+            popd >/dev/null 2>&1
+        fi
+    elif [ $((directive & shellCompDirectiveNoSpace)) -ne 0 ] && [ ${compCount} -eq 1 ]; then
+        __state_debug "Activating nospace."
+        # We can use compadd here as there is no description when
+        # there is only one completion.
+        compadd -S '' "${lastComp}"
+    elif [ ${compCount} -eq 0 ]; then
+        if [ $((directive & shellCompDirectiveNoFileComp)) -ne 0 ]; then
+            __state_debug "deactivating file completion"
+        else
+            # Perform file completion
+            __state_debug "activating file completion"
+            _arguments '*:filename:_files'" ${flagPrefix}"
+        fi
+    else
+        _describe "completions" completions $(echo $flagPrefix)
+    fi
+}
+
+# don't run the completion function when being source-ed or eval-ed
+if [ "$funcstack[1]" = "_state" ]; then
+	_state
+fi
+
+[ERR 18:54:01.225 multilog.go:19] prepare error, message: Could not generate completions script, error received: Writing completion data failed., error: Writing completion data failed:
+    Could not write completions script:
+        'MkdirAll failed for path: /usr/local/share/zsh/site-functions':
+            'mkdir /usr/local/share/zsh: permission denied': permission denied
+
+Stacktrace: ./internal/logging/logging.go:283:logging.Error
+./internal/multilog/multilog.go:19:multilog.Error
+./internal/runners/prepare/prepare.go:131:prepare.(*Prepare).reportError
+./internal/runners/prepare/prepare.go:105:prepare.(*Prepare).Run
+./cmd/state/internal/cmdtree/prepare.go:21:cmdtree.newPrepareCommand.func1
+./internal/captain/command.go:693:captain.(*Command).cobraExecHandler.func2
+./internal/sighandler/awaiting.go:50:sighandler.(*sigHandler).WaitForFunc.func1
+<go>/src/runtime/asm_amd64.s:1598:runtime.goexit
+
+[DBG 18:54:01.225 svc.go:162] Fetching log svc log
+[DBG 18:54:01.226 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.226 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.226 prepare.go:109] Reset global executors
+[DBG 18:54:01.227 cmdcall.go:50] cmdcall

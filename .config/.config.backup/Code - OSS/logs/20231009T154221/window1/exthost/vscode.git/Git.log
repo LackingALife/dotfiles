@@ -1,0 +1,24 @@
+2023-10-09 15:42:25.547 [info] Log level: Info
+2023-10-09 15:42:25.547 [info] Validating found git in: "git"
+2023-10-09 15:42:25.547 [info] Using git "2.42.0" from "git"
+2023-10-09 15:42:25.547 [info] > git rev-parse --show-toplevel [12ms]
+2023-10-09 15:42:25.547 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-10-09 15:42:25.547 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab5
+2023-10-09 15:42:25.571 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-09 15:42:25.574 [info] > git config --get commit.template [17ms]
+2023-10-09 15:42:25.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/counter_and_free refs/remotes/counter_and_free [9ms]
+2023-10-09 15:42:25.608 [info] > git status -z -uall [4ms]
+2023-10-09 15:42:25.638 [info] > git config --get commit.template [5ms]
+2023-10-09 15:42:25.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/counter_and_free refs/remotes/counter_and_free [26ms]
+2023-10-09 15:42:25.683 [info] > git status -z -uall [4ms]
+2023-10-09 15:42:26.084 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-09 15:42:26.520 [info] > git fetch [982ms]
+2023-10-09 15:42:26.520 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/TimSousa1/labsAED.git/'
+2023-10-09 15:42:26.540 [info] > git config --get commit.template [11ms]
+2023-10-09 15:42:26.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/counter_and_free refs/remotes/counter_and_free [7ms]
+2023-10-09 15:42:26.561 [info] > git status -z -uall [7ms]

@@ -1,0 +1,14 @@
+2023-10-31 16:52:54.835 [info] Getting Manifest... vscodevim.vim
+2023-10-31 16:52:55.015 [info] Installing extension: vscodevim.vim
+2023-10-31 16:52:56.081 [info] Extension signature verification is not done: vscodevim.vim
+2023-10-31 16:52:56.215 [info] Extracted extension to file:///home/peter/.vscode-oss/extensions/vscodevim.vim-1.26.2-universal: vscodevim.vim
+2023-10-31 16:52:56.226 [info] Renamed to /home/peter/.vscode-oss/extensions/vscodevim.vim-1.26.2-universal
+2023-10-31 16:52:56.230 [info] Extracting extension completed. vscodevim.vim
+2023-10-31 16:52:56.246 [info] Extension installed successfully: vscodevim.vim
+2023-10-31 16:52:56.286 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

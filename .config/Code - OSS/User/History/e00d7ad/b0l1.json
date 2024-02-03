@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai++",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "'GohuFont 14 Nerd Font'",
+    "editor.fontSize": 18,
+    "editor.detectIndentation": false
+}

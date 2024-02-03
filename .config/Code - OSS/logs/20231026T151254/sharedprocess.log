@@ -1,0 +1,15 @@
+2023-10-26 15:13:01.137 [info] Getting Manifest... eamodio.gitlens
+2023-10-26 15:13:02.677 [info] Installing extension: eamodio.gitlens
+2023-10-26 15:13:04.262 [info] Extension signature verification is not done: eamodio.gitlens
+2023-10-26 15:13:04.889 [info] Extracted extension to file:///home/peter/.vscode-oss/extensions/eamodio.gitlens-14.4.1-universal: eamodio.gitlens
+2023-10-26 15:13:04.912 [info] Renamed to /home/peter/.vscode-oss/extensions/eamodio.gitlens-14.4.1-universal
+2023-10-26 15:13:04.922 [info] Extracting extension completed. eamodio.gitlens
+2023-10-26 15:13:04.939 [info] Extension installed successfully: eamodio.gitlens
+2023-10-26 15:13:04.957 [info] Marked extension as uninstalled eamodio.gitlens-14.4.0-universal
+2023-10-26 15:13:05.011 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

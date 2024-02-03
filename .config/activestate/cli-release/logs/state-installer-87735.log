@@ -1,0 +1,49 @@
+[DBG 18:54:00.949 defaults.go:101] Args: [/tmp/state-install/state-installer -n -f -t /home/peter/.komodoide/12.0/XRE/state --source-installer=install.sh]
+[DBG 18:54:00.950 listeners.go:18] Adding listener for config key: report.errors
+[DBG 18:54:00.973 locale.go:42] Init
+[DBG 18:54:00.979 instance.go:123] Setting config: Locale
+[DBG 18:54:00.998 instance.go:123] Setting config: Locale
+[DBG 18:54:01.013 rollbar.go:60] Sending Rollbar reports? false
+[DBG 18:54:01.013 output.go:52] Requested outputer for plain
+[DBG 18:54:01.013 output.go:57] Using Plain outputer
+[DBG 18:54:01.013 cmd.go:125] Original Args: [/tmp/state-install/state-installer -n -f -t /home/peter/.komodoide/12.0/XRE/state --source-installer=install.sh]
+[DBG 18:54:01.013 cmd.go:126] Processed Args: [/tmp/state-install/state-installer -n -f -t /home/peter/.komodoide/12.0/XRE/state --source-installer=install.sh]
+[DBG 18:54:01.014 client.go:140] Sending Google Analytics reports? true
+[DBG 18:54:01.014 listeners.go:18] Adding listener for config key: report.analytics
+[DBG 18:54:01.014 cmd.go:297] Install from local source
+[DBG 18:54:01.014 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.014 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.014 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.014 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.014 installer.go:47] Instantiated installer with source dir: /tmp/state-install, target dir: /home/peter/.komodoide/12.0/XRE/state
+[DBG 18:54:01.014 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.045 fileutils.go:575] Copying files from /tmp/state-install to /home/peter/.komodoide/12.0/XRE/state
+[DBG 18:54:01.091 rcfile.go:115] Writing to /home/peter/.profile:
+## START ACTIVESTATE AUTOSTART
+"/home/peter/.komodoide/12.0/XRE/state/bin/state-svc" start
+## STOP ACTIVESTATE AUTOSTART
+[DBG 18:54:01.091 subshell.go:204] Detected SHELL: zsh
+[DBG 18:54:01.092 instance.go:123] Setting config: shell
+[DBG 18:54:01.101 subshell.go:117] Using binary: /usr/bin/zsh
+[DBG 18:54:01.102 rcfile.go:100] Writing to /home/peter/.bashrc:
+# -- START ACTIVESTATE INSTALLATION
+export PATH="/home/peter/.komodoide/12.0/XRE/state/bin:$PATH"
+# -- STOP ACTIVESTATE INSTALLATION
+
+[DBG 18:54:01.102 rcfile.go:100] Writing to /home/peter/.zshrc:
+# -- START ACTIVESTATE INSTALLATION
+export PATH="/home/peter/.komodoide/12.0/XRE/state/bin:$PATH"
+# -- STOP ACTIVESTATE INSTALLATION
+
+[DBG 18:54:01.102 exeutils.go:101] ExecSimpleFromDir: dir: , bin: /home/peter/.komodoide/12.0/XRE/state/bin/state, args: []string{"_prepare"}, env: []string{}
+[DBG 18:54:01.511 installer.go:152] Installation was successful
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 termutils.go:17] Cannot get terminal size: inappropriate ioctl for device
+[DBG 18:54:01.511 subshell.go:204] Detected SHELL: zsh
+[DBG 18:54:01.511 subshell.go:117] Using binary: /usr/bin/zsh

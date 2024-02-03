@@ -1,0 +1,2197 @@
+2023-10-27 11:24:48.329 [info] Log level: Info
+2023-10-27 11:24:48.329 [info] Validating found git in: "git"
+2023-10-27 11:24:48.329 [info] Using git "2.42.0" from "git"
+2023-10-27 11:24:48.329 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-27 11:24:48.329 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:24:48.329 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-27 11:24:48.329 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:24:48.329 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-27 11:24:48.329 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-10-27 11:24:48.329 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj
+2023-10-27 11:24:48.329 [info] > git config --get commit.template [11ms]
+2023-10-27 11:24:48.329 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-27 11:24:48.329 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:24:48.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-27 11:24:48.329 [info] > git status -z -uall [5ms]
+2023-10-27 11:24:48.329 [info] > git config --get commit.template [13ms]
+2023-10-27 11:24:48.329 [info] > git rev-parse --show-toplevel [39ms]
+2023-10-27 11:24:48.329 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:24:48.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-27 11:24:48.329 [info] > git status -z -uall [418ms]
+2023-10-27 11:24:48.434 [info] > git rev-parse --show-toplevel [97ms]
+2023-10-27 11:24:48.434 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:24:48.627 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-27 11:24:48.779 [info] > git fetch [1245ms]
+2023-10-27 11:24:48.779 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:24:48.800 [info] > git config --get commit.template [11ms]
+2023-10-27 11:24:48.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-27 11:24:48.812 [info] > git status -z -uall [2ms]
+2023-10-27 11:25:08.133 [info] > git check-ignore -v -z --stdin [5ms]
+2023-10-27 11:25:09.758 [info] > git check-ignore -v -z --stdin [1ms]
+2023-10-27 11:25:10.484 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-27 11:25:20.872 [info] > git config --get commit.template [3ms]
+2023-10-27 11:25:20.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-27 11:25:20.901 [info] > git status -z -uall [4ms]
+2023-10-27 11:25:25.958 [info] > git config --get commit.template [23ms]
+2023-10-27 11:25:25.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-27 11:25:25.981 [info] > git status -z -uall [4ms]
+2023-10-27 11:25:28.849 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-27 11:25:28.849 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:25:41.749 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-27 11:25:41.749 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:27:33.190 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-27 11:27:33.190 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:28:03.780 [info] > git fetch [1402ms]
+2023-10-27 11:28:03.780 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:28:03.803 [info] > git config --get commit.template [12ms]
+2023-10-27 11:28:03.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-27 11:28:03.819 [info] > git status -z -uall [4ms]
+2023-10-27 11:28:17.883 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-27 11:28:17.883 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:28:46.004 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-27 11:28:46.004 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 11:28:50.178 [info] > git show --textconv :src/file.c [22ms]
+2023-10-27 11:28:50.179 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [9ms]
+2023-10-27 11:28:50.213 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [21ms]
+2023-10-27 11:28:51.784 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 11:28:51.787 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 11:28:51.810 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [13ms]
+2023-10-27 11:28:52.472 [info] > git show --textconv :src/file.c [37ms]
+2023-10-27 11:28:52.472 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [16ms]
+2023-10-27 11:28:52.502 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [20ms]
+2023-10-27 11:28:53.275 [info] > git show --textconv :src/main.c [10ms]
+2023-10-27 11:28:53.276 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 11:28:53.287 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [2ms]
+2023-10-27 11:28:53.938 [info] > git show --textconv :src/move.c [10ms]
+2023-10-27 11:28:53.939 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 11:28:53.949 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 11:28:54.858 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 11:28:54.862 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [5ms]
+2023-10-27 11:28:54.875 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [2ms]
+2023-10-27 11:28:55.416 [info] > git show --textconv :src/makefile [25ms]
+2023-10-27 11:28:55.419 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/makefile [5ms]
+2023-10-27 11:28:55.460 [info] > git cat-file -s 2d43801cf8bb9766ecae8ef13390868b9474a92d [21ms]
+2023-10-27 11:28:56.460 [info] > git show --textconv :src/main.c [35ms]
+2023-10-27 11:28:56.461 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [10ms]
+2023-10-27 11:28:56.475 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 11:28:57.092 [info] > git show --textconv :src/file.c [36ms]
+2023-10-27 11:28:57.093 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [13ms]
+2023-10-27 11:28:57.109 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [3ms]
+2023-10-27 11:29:05.527 [info] > git show --textconv :src/board.c [18ms]
+2023-10-27 11:29:05.527 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [5ms]
+2023-10-27 11:29:05.540 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [3ms]
+2023-10-27 11:29:18.171 [info] > git show --textconv :src/file.c [31ms]
+2023-10-27 11:29:18.172 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [12ms]
+2023-10-27 11:29:18.191 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [4ms]
+2023-10-27 11:29:23.178 [info] > git show --textconv :src/tileblaster.h [29ms]
+2023-10-27 11:29:23.179 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [8ms]
+2023-10-27 11:29:23.195 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 11:29:31.935 [info] > git show --textconv :src/move.c [26ms]
+2023-10-27 11:29:31.935 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [7ms]
+2023-10-27 11:29:31.952 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [4ms]
+2023-10-27 11:29:32.946 [info] > git show --textconv :src/main.c [11ms]
+2023-10-27 11:29:32.948 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 11:29:32.962 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [5ms]
+2023-10-27 11:29:33.838 [info] > git show --textconv :src/file.c [32ms]
+2023-10-27 11:29:33.838 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [10ms]
+2023-10-27 11:29:33.853 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [3ms]
+2023-10-27 11:29:34.658 [info] > git show --textconv :src/board.c [18ms]
+2023-10-27 11:29:34.658 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [6ms]
+2023-10-27 11:29:34.671 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [3ms]
+2023-10-27 11:29:47.175 [info] > git config --get commit.template [15ms]
+2023-10-27 11:29:47.176 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-27 11:29:47.193 [info] > git status -z -uall [2ms]
+2023-10-27 11:30:09.503 [info] > git show --textconv :src/board.c [21ms]
+2023-10-27 11:30:09.503 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [6ms]
+2023-10-27 11:30:09.520 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [4ms]
+2023-10-27 11:30:15.205 [info] > git show --textconv :src/tileblaster.h [13ms]
+2023-10-27 11:30:15.207 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [3ms]
+2023-10-27 11:30:15.225 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [7ms]
+2023-10-27 11:30:19.197 [info] > git config --get commit.template [3ms]
+2023-10-27 11:30:19.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-27 11:30:19.221 [info] > git status -z -uall [3ms]
+2023-10-27 11:30:49.320 [info] > git config --get commit.template [19ms]
+2023-10-27 11:30:49.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 11:30:49.341 [info] > git status -z -uall [4ms]
+2023-10-27 11:30:49.370 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 11:30:49.387 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 11:30:49.421 [info] > git show --textconv :src/tileblaster.h [3ms]
+2023-10-27 11:31:05.043 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 11:31:05.058 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [2ms]
+2023-10-27 11:31:05.078 [info] > git show --textconv :src/tileblaster.h [3ms]
+2023-10-27 11:31:05.233 [info] > git fetch [1389ms]
+2023-10-27 11:31:05.233 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:31:05.257 [info] > git config --get commit.template [12ms]
+2023-10-27 11:31:05.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:31:05.273 [info] > git status -z -uall [3ms]
+2023-10-27 11:32:09.407 [info] > git config --get commit.template [12ms]
+2023-10-27 11:32:09.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:32:09.421 [info] > git status -z -uall [3ms]
+2023-10-27 11:32:47.109 [info] > git config --get commit.template [24ms]
+2023-10-27 11:32:47.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 11:32:47.124 [info] > git status -z -uall [3ms]
+2023-10-27 11:33:07.201 [info] > git show --textconv :src/main.c [16ms]
+2023-10-27 11:33:07.202 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [6ms]
+2023-10-27 11:33:07.214 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 11:33:08.165 [info] > git show --textconv :src/file.c [30ms]
+2023-10-27 11:33:08.165 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [10ms]
+2023-10-27 11:33:08.184 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [2ms]
+2023-10-27 11:33:10.871 [info] > git show --textconv :src/main.c [19ms]
+2023-10-27 11:33:10.872 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [4ms]
+2023-10-27 11:33:10.883 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 11:33:13.650 [info] > git show --textconv :src/board.c [31ms]
+2023-10-27 11:33:13.651 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [9ms]
+2023-10-27 11:33:13.669 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [4ms]
+2023-10-27 11:33:25.420 [info] > git show --textconv :src/move.c [16ms]
+2023-10-27 11:33:25.420 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [5ms]
+2023-10-27 11:33:25.435 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 11:33:32.302 [info] > git show --textconv :src/board.c [11ms]
+2023-10-27 11:33:32.304 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 11:33:32.318 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [4ms]
+2023-10-27 11:33:46.220 [info] > git show --textconv :src/tileblaster.h [15ms]
+2023-10-27 11:33:46.224 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [5ms]
+2023-10-27 11:33:46.236 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [4ms]
+2023-10-27 11:34:06.498 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 11:34:06.510 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [2ms]
+2023-10-27 11:34:06.526 [info] > git show --textconv :src/tileblaster.h [3ms]
+2023-10-27 11:34:06.647 [info] > git fetch [1349ms]
+2023-10-27 11:34:06.647 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:34:06.672 [info] > git config --get commit.template [12ms]
+2023-10-27 11:34:06.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:34:06.686 [info] > git status -z -uall [4ms]
+2023-10-27 11:35:53.091 [info] > git show --textconv :src/move.c [16ms]
+2023-10-27 11:35:53.092 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [5ms]
+2023-10-27 11:35:53.105 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 11:36:10.398 [info] > git show --textconv :src/board.c [32ms]
+2023-10-27 11:36:10.398 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [11ms]
+2023-10-27 11:36:10.411 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [2ms]
+2023-10-27 11:36:30.547 [info] > git show --textconv :src/makefile [24ms]
+2023-10-27 11:36:30.547 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/makefile [4ms]
+2023-10-27 11:36:30.561 [info] > git cat-file -s 2d43801cf8bb9766ecae8ef13390868b9474a92d [2ms]
+2023-10-27 11:36:31.636 [info] > git show --textconv :src/tileblaster.h [13ms]
+2023-10-27 11:36:31.649 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [14ms]
+2023-10-27 11:36:31.666 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [7ms]
+2023-10-27 11:36:37.624 [info] > git config --get commit.template [17ms]
+2023-10-27 11:36:37.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:36:37.639 [info] > git status -z -uall [4ms]
+2023-10-27 11:36:40.089 [info] > git show --textconv :src/move.c [14ms]
+2023-10-27 11:36:40.090 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [4ms]
+2023-10-27 11:36:40.102 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [2ms]
+2023-10-27 11:37:07.908 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 11:37:07.921 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [2ms]
+2023-10-27 11:37:07.936 [info] > git show --textconv :src/move.c [3ms]
+2023-10-27 11:37:08.106 [info] > git fetch [1396ms]
+2023-10-27 11:37:08.106 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:37:08.129 [info] > git config --get commit.template [12ms]
+2023-10-27 11:37:08.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:37:08.144 [info] > git status -z -uall [3ms]
+2023-10-27 11:37:12.993 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 11:37:12.995 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 11:37:13.007 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [3ms]
+2023-10-27 11:37:19.477 [info] > git config --get commit.template [5ms]
+2023-10-27 11:37:19.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:37:19.509 [info] > git status -z -uall [4ms]
+2023-10-27 11:37:19.872 [info] > git show --textconv :src/file.c [11ms]
+2023-10-27 11:37:19.874 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 11:37:19.887 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [2ms]
+2023-10-27 11:37:20.510 [info] > git show --textconv :src/move.c [12ms]
+2023-10-27 11:37:20.511 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 11:37:20.524 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [2ms]
+2023-10-27 11:37:24.719 [info] > git config --get commit.template [13ms]
+2023-10-27 11:37:24.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:37:24.737 [info] > git status -z -uall [4ms]
+2023-10-27 11:37:33.266 [info] > git config --get commit.template [20ms]
+2023-10-27 11:37:33.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:37:33.283 [info] > git status -z -uall [3ms]
+2023-10-27 11:37:33.739 [info] > git show --textconv :src/tileblaster.h [23ms]
+2023-10-27 11:37:33.746 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [12ms]
+2023-10-27 11:37:33.763 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [4ms]
+2023-10-27 11:37:38.328 [info] > git config --get commit.template [21ms]
+2023-10-27 11:37:38.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 11:37:38.346 [info] > git status -z -uall [4ms]
+2023-10-27 11:38:59.558 [info] > git show --textconv :src/file.c [15ms]
+2023-10-27 11:38:59.559 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [5ms]
+2023-10-27 11:38:59.572 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [3ms]
+2023-10-27 11:39:05.914 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 11:39:05.915 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 11:39:05.930 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [5ms]
+2023-10-27 11:39:25.407 [info] > git show --textconv :src/board.c [13ms]
+2023-10-27 11:39:25.409 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 11:39:25.422 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [2ms]
+2023-10-27 11:39:29.789 [info] > git show --textconv :src/tileblaster.h [28ms]
+2023-10-27 11:39:29.789 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [14ms]
+2023-10-27 11:39:29.810 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [9ms]
+2023-10-27 11:39:56.533 [info] > git config --get commit.template [17ms]
+2023-10-27 11:39:56.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:39:56.550 [info] > git status -z -uall [4ms]
+2023-10-27 11:39:57.156 [info] > git show --textconv :src/board.c [17ms]
+2023-10-27 11:39:57.156 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [4ms]
+2023-10-27 11:39:57.171 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [4ms]
+2023-10-27 11:40:09.462 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 11:40:09.475 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [3ms]
+2023-10-27 11:40:09.490 [info] > git show --textconv :src/board.c [2ms]
+2023-10-27 11:40:09.592 [info] > git fetch [1427ms]
+2023-10-27 11:40:09.592 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:40:09.614 [info] > git config --get commit.template [12ms]
+2023-10-27 11:40:09.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:40:09.629 [info] > git status -z -uall [3ms]
+2023-10-27 11:40:20.064 [info] > git show --textconv :src/tileblaster.h [11ms]
+2023-10-27 11:40:20.066 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 11:40:20.080 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [4ms]
+2023-10-27 11:41:07.123 [info] > git config --get commit.template [25ms]
+2023-10-27 11:41:07.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:41:07.137 [info] > git status -z -uall [4ms]
+2023-10-27 11:41:12.757 [info] > git show --textconv :src/main.c [13ms]
+2023-10-27 11:41:12.762 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [6ms]
+2023-10-27 11:41:12.775 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 11:41:15.288 [info] > git show --textconv :src/makefile [16ms]
+2023-10-27 11:41:15.289 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/makefile [5ms]
+2023-10-27 11:41:15.302 [info] > git cat-file -s 2d43801cf8bb9766ecae8ef13390868b9474a92d [3ms]
+2023-10-27 11:41:15.741 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 11:41:15.747 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [7ms]
+2023-10-27 11:41:15.761 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 11:41:17.277 [info] > git show --textconv :src/main.c [17ms]
+2023-10-27 11:41:17.278 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [6ms]
+2023-10-27 11:41:17.291 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 11:43:25.371 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 11:43:25.384 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 11:43:25.399 [info] > git show --textconv :src/main.c [3ms]
+2023-10-27 11:43:25.456 [info] > git fetch [1374ms]
+2023-10-27 11:43:25.456 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:43:25.469 [info] > git config --get commit.template [2ms]
+2023-10-27 11:43:25.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:43:25.496 [info] > git status -z -uall [4ms]
+2023-10-27 11:43:50.112 [info] > git show --textconv :src/file.c [12ms]
+2023-10-27 11:43:50.114 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 11:43:50.129 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [5ms]
+2023-10-27 11:46:36.391 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 11:46:36.406 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [3ms]
+2023-10-27 11:46:36.421 [info] > git show --textconv :src/file.c [3ms]
+2023-10-27 11:46:36.733 [info] > git fetch [1566ms]
+2023-10-27 11:46:36.733 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:46:36.755 [info] > git config --get commit.template [12ms]
+2023-10-27 11:46:36.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:46:36.770 [info] > git status -z -uall [3ms]
+2023-10-27 11:46:58.483 [info] > git config --get commit.template [11ms]
+2023-10-27 11:46:58.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:46:58.498 [info] > git status -z -uall [3ms]
+2023-10-27 11:48:27.160 [info] > git config --get commit.template [14ms]
+2023-10-27 11:48:27.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:48:27.175 [info] > git status -z -uall [3ms]
+2023-10-27 11:48:32.776 [info] > git config --get commit.template [23ms]
+2023-10-27 11:48:32.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 11:48:32.806 [info] > git status -z -uall [6ms]
+2023-10-27 11:48:47.534 [info] > git show --textconv :src/move.c [16ms]
+2023-10-27 11:48:47.535 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [6ms]
+2023-10-27 11:48:47.549 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 11:48:57.665 [info] > git show --textconv :src/tileblaster.h [17ms]
+2023-10-27 11:48:57.665 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [5ms]
+2023-10-27 11:48:57.679 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 11:49:05.260 [info] > git config --get commit.template [17ms]
+2023-10-27 11:49:05.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:49:05.279 [info] > git status -z -uall [5ms]
+2023-10-27 11:49:08.561 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-27 11:49:13.923 [info] > git config --get commit.template [14ms]
+2023-10-27 11:49:13.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:49:13.940 [info] > git status -z -uall [3ms]
+2023-10-27 11:49:15.287 [info] > git show --textconv :src/file.c [32ms]
+2023-10-27 11:49:15.287 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [11ms]
+2023-10-27 11:49:15.317 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [5ms]
+2023-10-27 11:49:28.203 [info] > git config --get commit.template [13ms]
+2023-10-27 11:49:28.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:49:28.218 [info] > git status -z -uall [4ms]
+2023-10-27 11:50:38.174 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 11:50:38.190 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [3ms]
+2023-10-27 11:50:38.206 [info] > git show --textconv :src/file.c [3ms]
+2023-10-27 11:50:38.304 [info] > git fetch [1420ms]
+2023-10-27 11:50:38.304 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:50:38.326 [info] > git config --get commit.template [11ms]
+2023-10-27 11:50:38.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:50:38.341 [info] > git status -z -uall [3ms]
+2023-10-27 11:51:03.008 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-27 11:51:05.330 [info] > git config --get commit.template [18ms]
+2023-10-27 11:51:05.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:51:05.354 [info] > git status -z -uall [4ms]
+2023-10-27 11:51:07.628 [info] > git show --textconv :src/tileblaster.h [28ms]
+2023-10-27 11:51:07.628 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [5ms]
+2023-10-27 11:51:07.642 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 11:51:10.013 [info] > git show --textconv :src/move.c [18ms]
+2023-10-27 11:51:10.014 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [6ms]
+2023-10-27 11:51:10.031 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 11:51:10.382 [info] > git config --get commit.template [4ms]
+2023-10-27 11:51:10.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:51:10.411 [info] > git status -z -uall [3ms]
+2023-10-27 11:51:16.091 [info] > git show --textconv :src/board.c [31ms]
+2023-10-27 11:51:16.092 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [11ms]
+2023-10-27 11:51:16.107 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [2ms]
+2023-10-27 11:51:22.288 [info] > git config --get commit.template [29ms]
+2023-10-27 11:51:22.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 11:51:22.310 [info] > git status -z -uall [4ms]
+2023-10-27 11:51:28.594 [info] > git config --get commit.template [3ms]
+2023-10-27 11:51:28.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:51:28.632 [info] > git status -z -uall [5ms]
+2023-10-27 11:52:31.140 [info] > git check-ignore -v -z --stdin [4ms]
+2023-10-27 11:52:39.826 [info] > git config --get commit.template [17ms]
+2023-10-27 11:52:39.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:52:39.844 [info] > git status -z -uall [3ms]
+2023-10-27 11:52:41.544 [info] > git show --textconv :src/move.c [12ms]
+2023-10-27 11:52:41.546 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 11:52:41.560 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [4ms]
+2023-10-27 11:52:44.881 [info] > git config --get commit.template [15ms]
+2023-10-27 11:52:44.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:52:44.898 [info] > git status -z -uall [4ms]
+2023-10-27 11:52:57.851 [info] > git check-ignore -v -z --stdin [4ms]
+2023-10-27 11:53:05.819 [info] > git config --get commit.template [17ms]
+2023-10-27 11:53:05.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:53:05.835 [info] > git status -z -uall [3ms]
+2023-10-27 11:53:10.876 [info] > git show --textconv :src/tileblaster.h [4ms]
+2023-10-27 11:53:10.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [15ms]
+2023-10-27 11:53:10.877 [info] > git config --get commit.template [28ms]
+2023-10-27 11:53:10.902 [info] > git status -z -uall [15ms]
+2023-10-27 11:53:10.906 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [8ms]
+2023-10-27 11:53:10.922 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 11:53:18.507 [info] > git config --get commit.template [15ms]
+2023-10-27 11:53:18.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 11:53:18.525 [info] > git status -z -uall [3ms]
+2023-10-27 11:53:50.358 [info] > git config --get commit.template [2ms]
+2023-10-27 11:53:50.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:53:50.389 [info] > git status -z -uall [4ms]
+2023-10-27 11:53:51.628 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 11:53:51.642 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [2ms]
+2023-10-27 11:53:51.657 [info] > git show --textconv :src/tileblaster.h [2ms]
+2023-10-27 11:53:51.734 [info] > git fetch [1394ms]
+2023-10-27 11:53:51.734 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:53:51.759 [info] > git config --get commit.template [11ms]
+2023-10-27 11:53:51.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:53:51.774 [info] > git status -z -uall [3ms]
+2023-10-27 11:53:52.936 [info] > git show --textconv :src/file.c [19ms]
+2023-10-27 11:53:52.936 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [5ms]
+2023-10-27 11:53:52.951 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [4ms]
+2023-10-27 11:53:53.798 [info] > git show --textconv :src/board.c [13ms]
+2023-10-27 11:53:53.799 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 11:53:53.816 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [5ms]
+2023-10-27 11:53:55.279 [info] > git show --textconv :src/move.c [29ms]
+2023-10-27 11:53:55.279 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [9ms]
+2023-10-27 11:53:55.301 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [7ms]
+2023-10-27 11:53:55.433 [info] > git config --get commit.template [14ms]
+2023-10-27 11:53:55.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:53:55.448 [info] > git status -z -uall [3ms]
+2023-10-27 11:53:56.298 [info] > git show --textconv :src/main.c [12ms]
+2023-10-27 11:53:56.300 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 11:53:56.314 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [5ms]
+2023-10-27 11:54:51.069 [info] > git config --get commit.template [16ms]
+2023-10-27 11:54:51.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 11:54:51.087 [info] > git status -z -uall [3ms]
+2023-10-27 11:54:56.138 [info] > git config --get commit.template [23ms]
+2023-10-27 11:54:56.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 11:54:56.154 [info] > git status -z -uall [3ms]
+2023-10-27 11:55:15.720 [info] > git config --get commit.template [13ms]
+2023-10-27 11:55:15.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:55:15.737 [info] > git status -z -uall [4ms]
+2023-10-27 11:58:34.446 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 11:58:34.458 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [2ms]
+2023-10-27 11:58:34.476 [info] > git show --textconv :src/main.c [3ms]
+2023-10-27 11:58:34.652 [info] > git fetch [1405ms]
+2023-10-27 11:58:34.652 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 11:58:34.665 [info] > git config --get commit.template [1ms]
+2023-10-27 11:58:34.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 11:58:34.690 [info] > git status -z -uall [3ms]
+2023-10-27 12:00:31.923 [info] > git show --textconv :src/file.c [18ms]
+2023-10-27 12:00:31.925 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:00:31.940 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [5ms]
+2023-10-27 12:01:30.891 [info] > git config --get commit.template [3ms]
+2023-10-27 12:01:30.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:01:30.917 [info] > git status -z -uall [3ms]
+2023-10-27 12:01:35.978 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:01:35.994 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [2ms]
+2023-10-27 12:01:36.012 [info] > git show --textconv :src/file.c [2ms]
+2023-10-27 12:01:36.156 [info] > git fetch [1427ms]
+2023-10-27 12:01:36.156 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:01:36.178 [info] > git config --get commit.template [11ms]
+2023-10-27 12:01:36.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:01:36.193 [info] > git status -z -uall [4ms]
+2023-10-27 12:01:36.211 [info] > git config --get commit.template [3ms]
+2023-10-27 12:01:36.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:01:36.236 [info] > git status -z -uall [3ms]
+2023-10-27 12:01:51.710 [info] > git config --get commit.template [24ms]
+2023-10-27 12:01:51.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 12:01:51.732 [info] > git status -z -uall [5ms]
+2023-10-27 12:02:18.313 [info] > git config --get commit.template [18ms]
+2023-10-27 12:02:18.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:02:18.330 [info] > git status -z -uall [4ms]
+2023-10-27 12:02:32.940 [info] > git config --get commit.template [13ms]
+2023-10-27 12:02:32.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:02:32.954 [info] > git status -z -uall [3ms]
+2023-10-27 12:02:38.000 [info] > git config --get commit.template [20ms]
+2023-10-27 12:02:38.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:02:38.029 [info] > git status -z -uall [6ms]
+2023-10-27 12:02:57.427 [info] > git config --get commit.template [27ms]
+2023-10-27 12:02:57.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 12:02:57.443 [info] > git status -z -uall [3ms]
+2023-10-27 12:03:28.293 [info] > git config --get commit.template [12ms]
+2023-10-27 12:03:28.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:03:28.309 [info] > git status -z -uall [3ms]
+2023-10-27 12:04:37.414 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:04:37.427 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [2ms]
+2023-10-27 12:04:37.443 [info] > git show --textconv :src/file.c [3ms]
+2023-10-27 12:04:37.655 [info] > git fetch [1437ms]
+2023-10-27 12:04:37.655 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:04:37.677 [info] > git config --get commit.template [11ms]
+2023-10-27 12:04:37.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:04:37.692 [info] > git status -z -uall [3ms]
+2023-10-27 12:04:39.232 [info] > git config --get commit.template [2ms]
+2023-10-27 12:04:39.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:04:39.265 [info] > git status -z -uall [4ms]
+2023-10-27 12:04:44.937 [info] > git config --get commit.template [15ms]
+2023-10-27 12:04:44.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:04:44.956 [info] > git status -z -uall [4ms]
+2023-10-27 12:04:45.663 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 12:04:45.665 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 12:04:45.681 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [6ms]
+2023-10-27 12:05:30.212 [info] > git config --get commit.template [17ms]
+2023-10-27 12:05:30.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:05:30.227 [info] > git status -z -uall [3ms]
+2023-10-27 12:06:09.085 [info] > git config --get commit.template [15ms]
+2023-10-27 12:06:09.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:06:09.104 [info] > git status -z -uall [5ms]
+2023-10-27 12:06:40.510 [info] > git config --get commit.template [11ms]
+2023-10-27 12:06:40.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:06:40.526 [info] > git status -z -uall [4ms]
+2023-10-27 12:06:45.576 [info] > git config --get commit.template [21ms]
+2023-10-27 12:06:45.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:06:45.606 [info] > git status -z -uall [6ms]
+2023-10-27 12:06:50.655 [info] > git config --get commit.template [22ms]
+2023-10-27 12:06:50.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 12:06:50.675 [info] > git status -z -uall [4ms]
+2023-10-27 12:06:51.135 [info] > git show --textconv :src/main.c [13ms]
+2023-10-27 12:06:51.137 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 12:06:51.151 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 12:06:56.848 [info] > git show --textconv :src/move.c [14ms]
+2023-10-27 12:06:56.850 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 12:06:56.867 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [5ms]
+2023-10-27 12:07:17.204 [info] > git config --get commit.template [15ms]
+2023-10-27 12:07:17.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:07:17.222 [info] > git status -z -uall [4ms]
+2023-10-27 12:07:24.018 [info] > git config --get commit.template [22ms]
+2023-10-27 12:07:24.021 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 12:07:24.047 [info] > git status -z -uall [6ms]
+2023-10-27 12:08:04.952 [info] > git fetch [1369ms]
+2023-10-27 12:08:04.952 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:08:04.975 [info] > git config --get commit.template [12ms]
+2023-10-27 12:08:04.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:08:04.989 [info] > git status -z -uall [3ms]
+2023-10-27 12:10:15.111 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 12:10:15.127 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [2ms]
+2023-10-27 12:10:15.168 [info] > git show --textconv :src/move.c [4ms]
+2023-10-27 12:10:53.703 [info] > git config --get commit.template [3ms]
+2023-10-27 12:10:53.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:10:53.727 [info] > git status -z -uall [3ms]
+2023-10-27 12:11:03.422 [info] > git config --get commit.template [13ms]
+2023-10-27 12:11:03.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:11:03.440 [info] > git status -z -uall [3ms]
+2023-10-27 12:11:06.204 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 12:11:06.218 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 12:11:06.234 [info] > git show --textconv :src/move.c [3ms]
+2023-10-27 12:11:06.436 [info] > git fetch [1431ms]
+2023-10-27 12:11:06.436 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:11:06.467 [info] > git config --get commit.template [17ms]
+2023-10-27 12:11:06.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:11:06.487 [info] > git status -z -uall [4ms]
+2023-10-27 12:12:12.967 [info] > git show --textconv :src/main.c [28ms]
+2023-10-27 12:12:12.968 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [8ms]
+2023-10-27 12:12:12.985 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [2ms]
+2023-10-27 12:12:15.170 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 12:12:15.171 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 12:12:15.185 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [2ms]
+2023-10-27 12:13:19.873 [info] > git show --textconv :src/file.c [12ms]
+2023-10-27 12:13:19.875 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:13:19.888 [info] > git cat-file -s 04a6c2f2ba39cf162ea4ced32adce922cc10cd6c [2ms]
+2023-10-27 12:13:52.025 [info] > git config --get commit.template [26ms]
+2023-10-27 12:13:52.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:13:52.041 [info] > git status -z -uall [3ms]
+2023-10-27 12:13:58.833 [info] > git config --get commit.template [16ms]
+2023-10-27 12:13:58.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 12:13:58.853 [info] > git status -z -uall [4ms]
+2023-10-27 12:14:11.497 [info] > git config --get commit.template [18ms]
+2023-10-27 12:14:11.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 12:14:11.519 [info] > git status -z -uall [4ms]
+2023-10-27 12:14:12.784 [info] > git fetch [1327ms]
+2023-10-27 12:14:12.784 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:14:12.813 [info] > git config --get commit.template [16ms]
+2023-10-27 12:14:12.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:14:12.832 [info] > git status -z -uall [5ms]
+2023-10-27 12:14:12.987 [info] > git show --textconv :src/board.c [39ms]
+2023-10-27 12:14:12.987 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [17ms]
+2023-10-27 12:14:13.016 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [7ms]
+2023-10-27 12:14:16.570 [info] > git config --get commit.template [24ms]
+2023-10-27 12:14:16.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:14:16.587 [info] > git status -z -uall [4ms]
+2023-10-27 12:14:35.183 [info] > git config --get commit.template [19ms]
+2023-10-27 12:14:35.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:14:35.209 [info] > git status -z -uall [5ms]
+2023-10-27 12:14:54.897 [info] > git config --get commit.template [2ms]
+2023-10-27 12:14:54.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:14:54.959 [info] > git status -z -uall [6ms]
+2023-10-27 12:14:59.987 [info] > git config --get commit.template [12ms]
+2023-10-27 12:14:59.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:15:00.002 [info] > git status -z -uall [4ms]
+2023-10-27 12:15:00.349 [info] > git show --textconv :src/move.c [18ms]
+2023-10-27 12:15:00.351 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 12:15:00.369 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [3ms]
+2023-10-27 12:15:13.891 [info] > git config --get commit.template [18ms]
+2023-10-27 12:15:13.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:15:13.910 [info] > git status -z -uall [4ms]
+2023-10-27 12:15:18.951 [info] > git config --get commit.template [16ms]
+2023-10-27 12:15:18.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:15:18.967 [info] > git status -z -uall [4ms]
+2023-10-27 12:15:19.413 [info] > git show --textconv :src/tileblaster.h [30ms]
+2023-10-27 12:15:19.413 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [6ms]
+2023-10-27 12:15:19.426 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [3ms]
+2023-10-27 12:16:30.488 [info] > git config --get commit.template [15ms]
+2023-10-27 12:16:30.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:16:30.504 [info] > git status -z -uall [3ms]
+2023-10-27 12:16:30.591 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:16:30.607 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [3ms]
+2023-10-27 12:16:30.634 [info] > git show --textconv :src/tileblaster.h [2ms]
+2023-10-27 12:16:37.302 [info] > git config --get commit.template [31ms]
+2023-10-27 12:16:37.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:16:37.320 [info] > git status -z -uall [4ms]
+2023-10-27 12:16:44.945 [info] > git show --textconv :src/main.c [12ms]
+2023-10-27 12:16:44.947 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 12:16:44.959 [info] > git cat-file -s ff43054b4cbe60604e553ebe2eed2c797da01915 [2ms]
+2023-10-27 12:16:47.597 [info] > git show --textconv :src/tileblaster.h [34ms]
+2023-10-27 12:16:47.598 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [12ms]
+2023-10-27 12:16:47.627 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [8ms]
+2023-10-27 12:17:14.093 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [3ms]
+2023-10-27 12:17:14.108 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [2ms]
+2023-10-27 12:17:14.123 [info] > git show --textconv :src/tileblaster.h [2ms]
+2023-10-27 12:17:14.425 [info] > git fetch [1541ms]
+2023-10-27 12:17:14.425 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:17:14.449 [info] > git config --get commit.template [11ms]
+2023-10-27 12:17:14.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:17:14.466 [info] > git status -z -uall [2ms]
+2023-10-27 12:17:36.987 [info] > git show --textconv :src/main.c [11ms]
+2023-10-27 12:17:36.988 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 12:17:37.000 [info] > git cat-file -s ff43054b4cbe60604e553ebe2eed2c797da01915 [2ms]
+2023-10-27 12:20:32.348 [info] > git fetch [1370ms]
+2023-10-27 12:20:32.348 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:20:32.372 [info] > git config --get commit.template [13ms]
+2023-10-27 12:20:32.391 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [20ms]
+2023-10-27 12:20:32.406 [info] > git status -z -uall [4ms]
+2023-10-27 12:22:37.826 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 12:22:37.828 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:22:37.844 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [5ms]
+2023-10-27 12:22:38.613 [info] > git show --textconv :src/makefile [12ms]
+2023-10-27 12:22:38.615 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/makefile [2ms]
+2023-10-27 12:22:38.630 [info] > git cat-file -s 2d43801cf8bb9766ecae8ef13390868b9474a92d [4ms]
+2023-10-27 12:22:42.581 [info] > git show --textconv :src/tileblaster.h [11ms]
+2023-10-27 12:22:42.583 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:22:42.596 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [3ms]
+2023-10-27 12:22:43.652 [info] > git show --textconv :src/makefile [12ms]
+2023-10-27 12:22:43.654 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/makefile [2ms]
+2023-10-27 12:22:43.666 [info] > git cat-file -s 2d43801cf8bb9766ecae8ef13390868b9474a92d [2ms]
+2023-10-27 12:23:04.512 [info] > git show --textconv :src/tileblaster.h [13ms]
+2023-10-27 12:23:04.513 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:23:04.530 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [6ms]
+2023-10-27 12:23:07.690 [info] > git show --textconv :src/main.c [11ms]
+2023-10-27 12:23:07.692 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [1ms]
+2023-10-27 12:23:07.704 [info] > git cat-file -s ff43054b4cbe60604e553ebe2eed2c797da01915 [2ms]
+2023-10-27 12:23:10.771 [info] > git show --textconv :src/tileblaster.h [11ms]
+2023-10-27 12:23:10.773 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:23:10.785 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [2ms]
+2023-10-27 12:23:11.875 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 12:23:11.877 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 12:23:11.889 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [2ms]
+2023-10-27 12:23:13.296 [info] > git show --textconv :src/file.c [11ms]
+2023-10-27 12:23:13.297 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:23:13.307 [info] > git cat-file -s 41e5dd24e1dbe3ec09a3493f40855123eae90c9f [2ms]
+2023-10-27 12:23:33.689 [info] > git fetch [1259ms]
+2023-10-27 12:23:33.689 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:23:33.710 [info] > git config --get commit.template [11ms]
+2023-10-27 12:23:33.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:23:33.725 [info] > git status -z -uall [3ms]
+2023-10-27 12:26:35.079 [info] > git fetch [1321ms]
+2023-10-27 12:26:35.079 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:26:35.104 [info] > git config --get commit.template [13ms]
+2023-10-27 12:26:35.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:26:35.120 [info] > git status -z -uall [4ms]
+2023-10-27 12:27:04.995 [info] > git show --textconv :src/board.c [11ms]
+2023-10-27 12:27:04.997 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 12:27:05.009 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [2ms]
+2023-10-27 12:32:09.850 [info] > git fetch [1479ms]
+2023-10-27 12:32:09.850 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:32:09.873 [info] > git config --get commit.template [11ms]
+2023-10-27 12:32:09.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:32:09.890 [info] > git status -z -uall [3ms]
+2023-10-27 12:32:17.808 [info] > git show --textconv :src/tileblaster.h [10ms]
+2023-10-27 12:32:17.810 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [3ms]
+2023-10-27 12:32:17.823 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [3ms]
+2023-10-27 12:32:23.905 [info] > git show --textconv :src/main.c [12ms]
+2023-10-27 12:32:23.911 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [6ms]
+2023-10-27 12:32:23.923 [info] > git cat-file -s ff43054b4cbe60604e553ebe2eed2c797da01915 [2ms]
+2023-10-27 12:32:28.498 [info] > git show --textconv :src/move.c [13ms]
+2023-10-27 12:32:28.500 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 12:32:28.512 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [2ms]
+2023-10-27 12:32:31.669 [info] > git show --textconv :src/file.c [12ms]
+2023-10-27 12:32:31.670 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:32:31.689 [info] > git cat-file -s 41e5dd24e1dbe3ec09a3493f40855123eae90c9f [8ms]
+2023-10-27 12:35:11.227 [info] > git fetch [1325ms]
+2023-10-27 12:35:11.227 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:35:11.251 [info] > git config --get commit.template [12ms]
+2023-10-27 12:35:11.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:35:11.265 [info] > git status -z -uall [2ms]
+2023-10-27 12:36:37.490 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 12:36:37.492 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 12:36:37.506 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [5ms]
+2023-10-27 12:37:23.409 [info] > git show --textconv :src/main.c [21ms]
+2023-10-27 12:37:23.414 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [6ms]
+2023-10-27 12:37:23.441 [info] > git cat-file -s ff43054b4cbe60604e553ebe2eed2c797da01915 [5ms]
+2023-10-27 12:37:27.176 [info] > git show --textconv :src/file.c [10ms]
+2023-10-27 12:37:27.177 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:37:27.191 [info] > git cat-file -s 41e5dd24e1dbe3ec09a3493f40855123eae90c9f [4ms]
+2023-10-27 12:37:32.836 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 12:37:32.852 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [16ms]
+2023-10-27 12:37:32.866 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [3ms]
+2023-10-27 12:37:42.972 [info] > git show --textconv :src/file.c [10ms]
+2023-10-27 12:37:42.974 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:37:42.994 [info] > git cat-file -s 41e5dd24e1dbe3ec09a3493f40855123eae90c9f [6ms]
+2023-10-27 12:37:46.736 [info] > git show --textconv :src/board.c [11ms]
+2023-10-27 12:37:46.738 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 12:37:46.753 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [4ms]
+2023-10-27 12:38:12.793 [info] > git fetch [1515ms]
+2023-10-27 12:38:12.793 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:38:12.814 [info] > git config --get commit.template [10ms]
+2023-10-27 12:38:12.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:38:12.829 [info] > git status -z -uall [3ms]
+2023-10-27 12:39:42.901 [info] > git show --textconv :src/tileblaster.h [14ms]
+2023-10-27 12:39:42.902 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:39:42.917 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [4ms]
+2023-10-27 12:39:54.225 [info] > git show --textconv :src/board.c [10ms]
+2023-10-27 12:39:54.227 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 12:39:54.242 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [5ms]
+2023-10-27 12:40:18.975 [info] > git show --textconv :src/tileblaster.h [11ms]
+2023-10-27 12:40:18.976 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:40:18.986 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [3ms]
+2023-10-27 12:40:24.281 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 12:40:24.283 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 12:40:24.307 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [14ms]
+2023-10-27 12:40:29.920 [info] > git show --textconv :src/tileblaster.h [14ms]
+2023-10-27 12:40:29.925 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [6ms]
+2023-10-27 12:40:29.939 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [3ms]
+2023-10-27 12:41:07.947 [info] > git show --textconv :src/board.c [8ms]
+2023-10-27 12:41:07.949 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 12:41:07.961 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [4ms]
+2023-10-27 12:41:14.189 [info] > git fetch [1347ms]
+2023-10-27 12:41:14.189 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:41:14.216 [info] > git config --get commit.template [14ms]
+2023-10-27 12:41:14.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 12:41:14.230 [info] > git status -z -uall [3ms]
+2023-10-27 12:41:25.050 [info] > git show --textconv :src/file.c [11ms]
+2023-10-27 12:41:25.051 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [1ms]
+2023-10-27 12:41:25.066 [info] > git cat-file -s 41e5dd24e1dbe3ec09a3493f40855123eae90c9f [5ms]
+2023-10-27 12:44:15.572 [info] > git fetch [1312ms]
+2023-10-27 12:44:15.572 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:44:15.596 [info] > git config --get commit.template [12ms]
+2023-10-27 12:44:15.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:44:15.614 [info] > git status -z -uall [4ms]
+2023-10-27 12:44:40.812 [info] > git show --textconv :src/main.c [14ms]
+2023-10-27 12:44:40.814 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 12:44:40.831 [info] > git cat-file -s ff43054b4cbe60604e553ebe2eed2c797da01915 [5ms]
+2023-10-27 12:44:41.398 [info] > git show --textconv :src/move.c [13ms]
+2023-10-27 12:44:41.400 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 12:44:41.417 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [6ms]
+2023-10-27 12:44:42.157 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 12:44:42.158 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 12:44:42.173 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [5ms]
+2023-10-27 12:44:43.726 [info] > git show --textconv :src/file.c [11ms]
+2023-10-27 12:44:43.727 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 12:44:43.738 [info] > git cat-file -s 41e5dd24e1dbe3ec09a3493f40855123eae90c9f [4ms]
+2023-10-27 12:46:25.608 [info] > git show --textconv :src/board.c [13ms]
+2023-10-27 12:46:25.610 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 12:46:25.622 [info] > git cat-file -s 8634bf00d8c69272425781a7bf5552c833597c23 [2ms]
+2023-10-27 12:47:20.680 [info] > git fetch [1308ms]
+2023-10-27 12:47:20.680 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:47:20.710 [info] > git config --get commit.template [16ms]
+2023-10-27 12:47:20.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 12:47:20.728 [info] > git status -z -uall [3ms]
+2023-10-27 12:48:23.142 [info] > git config --get commit.template [12ms]
+2023-10-27 12:48:23.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:48:23.162 [info] > git status -z -uall [5ms]
+2023-10-27 12:48:23.239 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [4ms]
+2023-10-27 12:48:23.253 [info] > git cat-file -s 8769bc6ac9891e6748828dca1cfa2dcb1a623eeb [3ms]
+2023-10-27 12:48:23.280 [info] > git show --textconv :src/board.c [4ms]
+2023-10-27 12:50:22.049 [info] > git fetch [1304ms]
+2023-10-27 12:50:22.049 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:50:22.073 [info] > git config --get commit.template [12ms]
+2023-10-27 12:50:22.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:50:22.089 [info] > git status -z -uall [3ms]
+2023-10-27 12:53:23.382 [info] > git fetch [1279ms]
+2023-10-27 12:53:23.382 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:53:23.403 [info] > git config --get commit.template [11ms]
+2023-10-27 12:53:23.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:53:23.417 [info] > git status -z -uall [3ms]
+2023-10-27 12:54:00.193 [info] > git show --textconv :src/file.c [11ms]
+2023-10-27 12:54:00.195 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [3ms]
+2023-10-27 12:54:00.207 [info] > git cat-file -s 9d500cca996d40af36239ca8e93ad4ff85c5b9cb [3ms]
+2023-10-27 12:54:00.765 [info] > git show --textconv :src/main.c [11ms]
+2023-10-27 12:54:00.767 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 12:54:00.784 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [5ms]
+2023-10-27 12:54:01.278 [info] > git show --textconv :src/move.c [13ms]
+2023-10-27 12:54:01.279 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 12:54:01.291 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [3ms]
+2023-10-27 12:54:34.419 [info] > git show --textconv :src/board.c [16ms]
+2023-10-27 12:54:34.419 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 12:54:34.433 [info] > git cat-file -s 8769bc6ac9891e6748828dca1cfa2dcb1a623eeb [4ms]
+2023-10-27 12:56:24.645 [info] > git fetch [1209ms]
+2023-10-27 12:56:24.645 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:56:24.663 [info] > git config --get commit.template [9ms]
+2023-10-27 12:56:24.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:56:24.677 [info] > git status -z -uall [3ms]
+2023-10-27 12:59:25.885 [info] > git fetch [1191ms]
+2023-10-27 12:59:25.885 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 12:59:25.904 [info] > git config --get commit.template [9ms]
+2023-10-27 12:59:25.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 12:59:25.922 [info] > git status -z -uall [3ms]
+2023-10-27 13:02:27.288 [info] > git fetch [1351ms]
+2023-10-27 13:02:27.288 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:02:27.316 [info] > git config --get commit.template [16ms]
+2023-10-27 13:02:27.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 13:02:27.332 [info] > git status -z -uall [5ms]
+2023-10-27 13:05:28.609 [info] > git fetch [1263ms]
+2023-10-27 13:05:28.609 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:05:28.631 [info] > git config --get commit.template [12ms]
+2023-10-27 13:05:28.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 13:05:28.644 [info] > git status -z -uall [2ms]
+2023-10-27 13:08:30.010 [info] > git fetch [1344ms]
+2023-10-27 13:08:30.010 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:08:30.034 [info] > git config --get commit.template [13ms]
+2023-10-27 13:08:30.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:08:30.048 [info] > git status -z -uall [3ms]
+2023-10-27 13:11:31.344 [info] > git fetch [1282ms]
+2023-10-27 13:11:31.344 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:11:31.370 [info] > git config --get commit.template [16ms]
+2023-10-27 13:11:31.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 13:11:31.386 [info] > git status -z -uall [4ms]
+2023-10-27 13:14:32.746 [info] > git fetch [1346ms]
+2023-10-27 13:14:32.747 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:14:32.775 [info] > git config --get commit.template [17ms]
+2023-10-27 13:14:32.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 13:14:32.792 [info] > git status -z -uall [3ms]
+2023-10-27 13:17:34.109 [info] > git fetch [1301ms]
+2023-10-27 13:17:34.109 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:17:34.131 [info] > git config --get commit.template [11ms]
+2023-10-27 13:17:34.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:17:34.146 [info] > git status -z -uall [3ms]
+2023-10-27 13:20:35.543 [info] > git fetch [1369ms]
+2023-10-27 13:20:35.543 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:20:35.566 [info] > git config --get commit.template [11ms]
+2023-10-27 13:20:35.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:20:35.582 [info] > git status -z -uall [4ms]
+2023-10-27 13:23:36.817 [info] > git fetch [1211ms]
+2023-10-27 13:23:36.817 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:23:36.828 [info] > git config --get commit.template [2ms]
+2023-10-27 13:23:36.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:23:36.849 [info] > git status -z -uall [2ms]
+2023-10-27 13:26:38.131 [info] > git fetch [1252ms]
+2023-10-27 13:26:38.131 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:26:38.147 [info] > git config --get commit.template [8ms]
+2023-10-27 13:26:38.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:26:38.159 [info] > git status -z -uall [2ms]
+2023-10-27 13:29:39.402 [info] > git fetch [1227ms]
+2023-10-27 13:29:39.402 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:29:39.422 [info] > git config --get commit.template [11ms]
+2023-10-27 13:29:39.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 13:29:39.435 [info] > git status -z -uall [3ms]
+2023-10-27 13:30:54.868 [info] > git show --textconv :src/file.c [17ms]
+2023-10-27 13:30:54.870 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [3ms]
+2023-10-27 13:30:54.883 [info] > git cat-file -s 9d500cca996d40af36239ca8e93ad4ff85c5b9cb [2ms]
+2023-10-27 13:30:59.372 [info] > git show --textconv :src/move.c [12ms]
+2023-10-27 13:30:59.374 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 13:30:59.388 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [4ms]
+2023-10-27 13:31:58.411 [info] > git config --get commit.template [14ms]
+2023-10-27 13:31:58.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:31:58.430 [info] > git status -z -uall [5ms]
+2023-10-27 13:31:58.498 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 13:31:58.518 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [6ms]
+2023-10-27 13:31:58.541 [info] > git show --textconv :src/move.c [5ms]
+2023-10-27 13:33:23.651 [info] > git fetch [1239ms]
+2023-10-27 13:33:23.651 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 13:33:23.670 [info] > git config --get commit.template [9ms]
+2023-10-27 13:33:23.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 13:33:23.683 [info] > git status -z -uall [3ms]
+2023-10-27 14:22:35.577 [info] > git fetch [1374ms]
+2023-10-27 14:22:35.577 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 14:22:35.607 [info] > git config --get commit.template [15ms]
+2023-10-27 14:22:35.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 14:22:35.626 [info] > git status -z -uall [3ms]
+2023-10-27 14:30:55.356 [info] > git fetch [1241ms]
+2023-10-27 14:30:55.356 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 14:30:55.376 [info] > git config --get commit.template [12ms]
+2023-10-27 14:30:55.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 14:30:55.389 [info] > git status -z -uall [4ms]
+2023-10-27 15:08:43.289 [info] > git fetch [1159ms]
+2023-10-27 15:08:43.289 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:08:43.304 [info] > git config --get commit.template [8ms]
+2023-10-27 15:08:43.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 15:08:43.312 [info] > git status -z -uall [2ms]
+2023-10-27 15:08:54.435 [info] > git show --textconv :src/board.c [13ms]
+2023-10-27 15:08:54.435 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 15:08:54.444 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [2ms]
+2023-10-27 15:09:02.793 [info] > git show --textconv :src/move.c [7ms]
+2023-10-27 15:09:02.794 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 15:09:02.801 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [1ms]
+2023-10-27 15:11:53.802 [info] > git fetch [1375ms]
+2023-10-27 15:11:53.802 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:11:53.827 [info] > git config --get commit.template [12ms]
+2023-10-27 15:11:53.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:11:53.846 [info] > git status -z -uall [5ms]
+2023-10-27 15:11:57.298 [info] > git show --textconv :src/tileblaster.h [8ms]
+2023-10-27 15:11:57.299 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [1ms]
+2023-10-27 15:11:57.306 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [1ms]
+2023-10-27 15:12:28.602 [info] > git show --textconv :src/move.c [9ms]
+2023-10-27 15:12:28.603 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:12:28.612 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [1ms]
+2023-10-27 15:12:57.378 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 15:12:57.379 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 15:12:57.394 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [4ms]
+2023-10-27 15:13:01.570 [info] > git show --textconv :src/main.c [7ms]
+2023-10-27 15:13:01.570 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [1ms]
+2023-10-27 15:13:01.577 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [1ms]
+2023-10-27 15:13:03.947 [info] > git show --textconv :src/move.c [41ms]
+2023-10-27 15:13:03.948 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [15ms]
+2023-10-27 15:13:03.969 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [4ms]
+2023-10-27 15:13:32.872 [info] > git show --textconv :src/board.c [7ms]
+2023-10-27 15:13:32.873 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 15:13:32.881 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [2ms]
+2023-10-27 15:14:23.041 [info] > git show --textconv :src/move.c [20ms]
+2023-10-27 15:14:23.042 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [4ms]
+2023-10-27 15:14:23.055 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [3ms]
+2023-10-27 15:14:25.424 [info] > git show --textconv :src/tileblaster.h [7ms]
+2023-10-27 15:14:25.425 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 15:14:25.432 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [1ms]
+2023-10-27 15:14:48.048 [info] > git show --textconv :src/move.c [7ms]
+2023-10-27 15:14:48.069 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 15:14:48.096 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [6ms]
+2023-10-27 15:14:55.219 [info] > git fetch [1340ms]
+2023-10-27 15:14:55.219 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:14:55.242 [info] > git config --get commit.template [12ms]
+2023-10-27 15:14:55.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:14:55.257 [info] > git status -z -uall [3ms]
+2023-10-27 15:15:21.142 [info] > git show --textconv :src/board.c [21ms]
+2023-10-27 15:15:21.143 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 15:15:21.156 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [2ms]
+2023-10-27 15:15:26.356 [info] > git show --textconv :src/move.c [56ms]
+2023-10-27 15:15:26.356 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [30ms]
+2023-10-27 15:15:26.388 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [8ms]
+2023-10-27 15:16:15.006 [info] > git show --textconv :src/board.c [6ms]
+2023-10-27 15:16:15.007 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 15:16:15.015 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [2ms]
+2023-10-27 15:16:21.174 [info] > git show --textconv :src/move.c [11ms]
+2023-10-27 15:16:21.175 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:16:21.197 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [12ms]
+2023-10-27 15:16:33.510 [info] > git show --textconv :src/board.c [21ms]
+2023-10-27 15:16:33.510 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [6ms]
+2023-10-27 15:16:33.527 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [4ms]
+2023-10-27 15:16:38.523 [info] > git show --textconv :src/move.c [8ms]
+2023-10-27 15:16:38.524 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 15:16:38.534 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [1ms]
+2023-10-27 15:17:03.250 [info] > git show --textconv :src/board.c [26ms]
+2023-10-27 15:17:03.250 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [7ms]
+2023-10-27 15:17:03.262 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [2ms]
+2023-10-27 15:17:19.747 [info] > git show --textconv :src/move.c [36ms]
+2023-10-27 15:17:19.748 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [13ms]
+2023-10-27 15:17:19.787 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [9ms]
+2023-10-27 15:17:32.520 [info] > git show --textconv :src/board.c [28ms]
+2023-10-27 15:17:32.521 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [9ms]
+2023-10-27 15:17:32.555 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [9ms]
+2023-10-27 15:17:36.205 [info] > git show --textconv :src/move.c [10ms]
+2023-10-27 15:17:36.206 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:17:36.215 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [2ms]
+2023-10-27 15:17:47.953 [info] > git show --textconv :src/tileblaster.h [20ms]
+2023-10-27 15:17:47.954 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [7ms]
+2023-10-27 15:17:47.973 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [6ms]
+2023-10-27 15:17:56.439 [info] > git fetch [1154ms]
+2023-10-27 15:17:56.439 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:17:56.452 [info] > git config --get commit.template [5ms]
+2023-10-27 15:17:56.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 15:17:56.459 [info] > git status -z -uall [1ms]
+2023-10-27 15:18:15.130 [info] > git show --textconv :src/main.c [31ms]
+2023-10-27 15:18:15.130 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [10ms]
+2023-10-27 15:18:15.167 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [8ms]
+2023-10-27 15:18:15.726 [info] > git show --textconv :src/board.c [38ms]
+2023-10-27 15:18:15.727 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [13ms]
+2023-10-27 15:18:15.753 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [4ms]
+2023-10-27 15:18:40.343 [info] > git show --textconv :src/tileblaster.h [12ms]
+2023-10-27 15:18:40.345 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [3ms]
+2023-10-27 15:18:40.360 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [5ms]
+2023-10-27 15:19:01.296 [info] > git show --textconv :src/board.c [6ms]
+2023-10-27 15:19:01.297 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 15:19:01.303 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [1ms]
+2023-10-27 15:19:52.934 [info] > git show --textconv :src/move.c [8ms]
+2023-10-27 15:19:52.935 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:19:52.946 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [3ms]
+2023-10-27 15:20:58.464 [info] > git fetch [1987ms]
+2023-10-27 15:20:58.464 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:20:58.486 [info] > git config --get commit.template [12ms]
+2023-10-27 15:20:58.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:20:58.501 [info] > git status -z -uall [3ms]
+2023-10-27 15:24:24.009 [info] > git fetch [1337ms]
+2023-10-27 15:24:24.009 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:24:24.035 [info] > git config --get commit.template [13ms]
+2023-10-27 15:24:24.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:24:24.051 [info] > git status -z -uall [4ms]
+2023-10-27 15:24:52.577 [info] > git show --textconv :src/board.c [7ms]
+2023-10-27 15:24:52.577 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 15:24:52.586 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [2ms]
+2023-10-27 15:24:56.176 [info] > git show --textconv :src/move.c [36ms]
+2023-10-27 15:24:56.176 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [9ms]
+2023-10-27 15:24:56.205 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [5ms]
+2023-10-27 15:25:14.356 [info] > git show --textconv :src/board.c [11ms]
+2023-10-27 15:25:14.357 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 15:25:14.370 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [4ms]
+2023-10-27 15:26:08.473 [info] > git show --textconv :src/main.c [24ms]
+2023-10-27 15:26:08.473 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [4ms]
+2023-10-27 15:26:08.485 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [2ms]
+2023-10-27 15:26:09.438 [info] > git show --textconv :src/move.c [9ms]
+2023-10-27 15:26:09.440 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:26:09.449 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [2ms]
+2023-10-27 15:26:09.769 [info] > git show --textconv :src/tileblaster.h [7ms]
+2023-10-27 15:26:09.769 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [1ms]
+2023-10-27 15:26:09.777 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [2ms]
+2023-10-27 15:26:10.123 [info] > git show --textconv :src/move.c [8ms]
+2023-10-27 15:26:10.123 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 15:26:10.130 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [1ms]
+2023-10-27 15:27:08.590 [info] > git show --textconv :src/board.c [10ms]
+2023-10-27 15:27:08.592 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 15:27:08.600 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [1ms]
+2023-10-27 15:27:25.441 [info] > git fetch [1363ms]
+2023-10-27 15:27:25.441 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:27:25.463 [info] > git config --get commit.template [12ms]
+2023-10-27 15:27:25.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:27:25.478 [info] > git status -z -uall [3ms]
+2023-10-27 15:28:45.708 [info] > git show --textconv :src/move.c [6ms]
+2023-10-27 15:28:45.709 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 15:28:45.716 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [1ms]
+2023-10-27 15:30:40.604 [info] > git fetch [1312ms]
+2023-10-27 15:30:40.604 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:30:40.627 [info] > git config --get commit.template [12ms]
+2023-10-27 15:30:40.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:30:40.644 [info] > git status -z -uall [4ms]
+2023-10-27 15:32:41.590 [info] > git show --textconv :src/tileblaster.h [6ms]
+2023-10-27 15:32:41.591 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [1ms]
+2023-10-27 15:32:41.599 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [2ms]
+2023-10-27 15:32:43.174 [info] > git show --textconv :src/move.c [32ms]
+2023-10-27 15:32:43.174 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [8ms]
+2023-10-27 15:32:43.217 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [9ms]
+2023-10-27 15:33:33.292 [info] > git show --textconv :src/tileblaster.h [13ms]
+2023-10-27 15:33:33.294 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [3ms]
+2023-10-27 15:33:33.311 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [3ms]
+2023-10-27 15:33:34.150 [info] > git show --textconv :src/move.c [12ms]
+2023-10-27 15:33:34.152 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:33:34.174 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [12ms]
+2023-10-27 15:33:41.803 [info] > git fetch [1135ms]
+2023-10-27 15:33:41.803 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:33:41.816 [info] > git config --get commit.template [6ms]
+2023-10-27 15:33:41.817 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 15:33:41.826 [info] > git status -z -uall [2ms]
+2023-10-27 15:35:35.481 [info] > git show --textconv :src/tileblaster.h [15ms]
+2023-10-27 15:35:35.483 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [3ms]
+2023-10-27 15:35:35.499 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [5ms]
+2023-10-27 15:36:43.162 [info] > git fetch [1316ms]
+2023-10-27 15:36:43.162 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:36:43.186 [info] > git config --get commit.template [12ms]
+2023-10-27 15:36:43.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 15:36:43.201 [info] > git status -z -uall [3ms]
+2023-10-27 15:37:05.155 [info] > git show --textconv :src/board.c [26ms]
+2023-10-27 15:37:05.160 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [6ms]
+2023-10-27 15:37:05.183 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [5ms]
+2023-10-27 15:37:07.378 [info] > git show --textconv :src/main.c [9ms]
+2023-10-27 15:37:07.379 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 15:37:07.388 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [2ms]
+2023-10-27 15:37:09.965 [info] > git show --textconv :src/file.c [35ms]
+2023-10-27 15:37:09.965 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [14ms]
+2023-10-27 15:37:09.996 [info] > git cat-file -s 9d500cca996d40af36239ca8e93ad4ff85c5b9cb [6ms]
+2023-10-27 15:37:11.671 [info] > git show --textconv :src/main.c [9ms]
+2023-10-27 15:37:11.672 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 15:37:11.681 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [1ms]
+2023-10-27 15:37:13.661 [info] > git show --textconv :src/move.c [12ms]
+2023-10-27 15:37:13.663 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 15:37:13.676 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [2ms]
+2023-10-27 15:37:40.001 [info] > git show --textconv :src/board.c [36ms]
+2023-10-27 15:37:40.001 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [12ms]
+2023-10-27 15:37:40.028 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [6ms]
+2023-10-27 15:37:42.182 [info] > git show --textconv :src/tileblaster.h [10ms]
+2023-10-27 15:37:42.183 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 15:37:42.196 [info] > git cat-file -s 6bdb84968f78a9ba901f6ff90f3032ad29cfc433 [5ms]
+2023-10-27 15:37:43.298 [info] > git show --textconv :src/move.c [36ms]
+2023-10-27 15:37:43.298 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [11ms]
+2023-10-27 15:37:43.331 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [7ms]
+2023-10-27 15:39:16.743 [info] > git show --textconv :src/board.c [6ms]
+2023-10-27 15:39:16.744 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 15:39:16.751 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [1ms]
+2023-10-27 15:39:44.538 [info] > git fetch [1308ms]
+2023-10-27 15:39:44.538 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:39:44.562 [info] > git config --get commit.template [12ms]
+2023-10-27 15:39:44.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 15:39:44.580 [info] > git status -z -uall [5ms]
+2023-10-27 15:39:48.109 [info] > git show --textconv :src/move.c [42ms]
+2023-10-27 15:39:48.109 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [15ms]
+2023-10-27 15:39:48.143 [info] > git cat-file -s 6ff1b88d834aa6a46785fef1742f9656936f6565 [7ms]
+2023-10-27 15:49:18.420 [info] > git fetch [1175ms]
+2023-10-27 15:49:18.420 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:49:18.440 [info] > git config --get commit.template [10ms]
+2023-10-27 15:49:18.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 15:49:18.453 [info] > git status -z -uall [3ms]
+2023-10-27 15:52:52.629 [info] > git fetch [1411ms]
+2023-10-27 15:52:52.629 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:52:52.652 [info] > git config --get commit.template [12ms]
+2023-10-27 15:52:52.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 15:52:52.669 [info] > git status -z -uall [4ms]
+2023-10-27 15:52:52.999 [info] > git show --textconv :src/board.c [12ms]
+2023-10-27 15:52:53.000 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [2ms]
+2023-10-27 15:52:53.013 [info] > git cat-file -s cfa1ae6f40cf2f20bbee4839ccbf9c2c11b6dd5f [3ms]
+2023-10-27 15:55:10.418 [info] Log level: Info
+2023-10-27 15:55:10.418 [info] Validating found git in: "git"
+2023-10-27 15:55:10.418 [info] Using git "2.42.0" from "git"
+2023-10-27 15:55:10.421 [info] > git rev-parse --show-toplevel [31ms]
+2023-10-27 15:55:10.431 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-10-27 15:55:10.436 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/labs
+2023-10-27 15:55:10.453 [info] > git config --get commit.template [7ms]
+2023-10-27 15:55:10.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [29ms]
+2023-10-27 15:55:10.907 [info] > git status -z -uall [419ms]
+2023-10-27 15:55:10.995 [info] > git config --get commit.template [27ms]
+2023-10-27 15:55:11.037 [info] > git check-ignore -v -z --stdin [15ms]
+2023-10-27 15:55:11.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [5ms]
+2023-10-27 15:55:11.218 [info] > git status -z -uall [170ms]
+2023-10-27 15:55:18.455 [info] > git check-ignore -v -z --stdin [2ms]
+2023-10-27 15:55:19.153 [info] > git fetch [1238ms]
+2023-10-27 15:55:19.153 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:55:19.168 [info] > git config --get commit.template [8ms]
+2023-10-27 15:55:19.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [2ms]
+2023-10-27 15:55:19.258 [info] > git status -z -uall [83ms]
+2023-10-27 15:55:23.087 [info] > git show --textconv :prep/lab6/board.c [10ms]
+2023-10-27 15:55:23.088 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [2ms]
+2023-10-27 15:55:23.098 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [3ms]
+2023-10-27 15:59:39.582 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [2ms]
+2023-10-27 15:59:39.595 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [3ms]
+2023-10-27 15:59:39.612 [info] > git show --textconv :prep/lab6/board.c [2ms]
+2023-10-27 15:59:39.631 [info] > git fetch [1350ms]
+2023-10-27 15:59:39.631 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 15:59:39.653 [info] > git config --get commit.template [12ms]
+2023-10-27 15:59:39.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [2ms]
+2023-10-27 15:59:39.842 [info] > git status -z -uall [178ms]
+2023-10-27 16:05:22.986 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [4ms]
+2023-10-27 16:05:23.011 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [7ms]
+2023-10-27 16:05:23.088 [info] > git show --textconv :prep/lab6/board.c [3ms]
+2023-10-27 16:05:23.276 [info] > git fetch [1504ms]
+2023-10-27 16:05:23.276 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:05:23.312 [info] > git config --get commit.template [13ms]
+2023-10-27 16:05:23.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [4ms]
+2023-10-27 16:05:23.518 [info] > git status -z -uall [193ms]
+2023-10-27 16:05:33.508 [info] Log level: Info
+2023-10-27 16:05:33.508 [info] Validating found git in: "git"
+2023-10-27 16:05:33.508 [info] Using git "2.42.0" from "git"
+2023-10-27 16:05:33.510 [info] > git rev-parse --show-toplevel [100ms]
+2023-10-27 16:05:33.510 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 16:05:33.681 [info] > git rev-parse --show-toplevel [59ms]
+2023-10-27 16:05:33.681 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 16:05:33.710 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-27 16:05:33.736 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2023-10-27 16:05:33.751 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj
+2023-10-27 16:05:33.774 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-27 16:05:33.774 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 16:05:33.775 [info] > git config --get commit.template [12ms]
+2023-10-27 16:05:33.790 [info] > git rev-parse --show-toplevel [8ms]
+2023-10-27 16:05:33.790 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 16:05:33.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 16:05:33.822 [info] > git status -z -uall [23ms]
+2023-10-27 16:05:33.855 [info] > git config --get commit.template [3ms]
+2023-10-27 16:05:33.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 16:05:33.878 [info] > git status -z -uall [2ms]
+2023-10-27 16:05:33.920 [info] > git rev-parse --show-toplevel [11ms]
+2023-10-27 16:05:33.920 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-10-27 16:05:34.295 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-27 16:05:34.826 [info] > git fetch [1075ms]
+2023-10-27 16:05:34.826 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:05:34.836 [info] > git config --get commit.template [0ms]
+2023-10-27 16:05:34.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 16:05:34.854 [info] > git status -z -uall [2ms]
+2023-10-27 16:05:35.237 [info] > git check-ignore -v -z --stdin [1ms]
+2023-10-27 16:06:31.779 [info] Log level: Info
+2023-10-27 16:06:31.779 [info] Validating found git in: "git"
+2023-10-27 16:06:31.779 [info] Using git "2.42.0" from "git"
+2023-10-27 16:06:31.779 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-27 16:06:31.786 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-27 16:06:31.797 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/labs
+2023-10-27 16:06:31.811 [info] > git config --get commit.template [7ms]
+2023-10-27 16:06:31.815 [info] > git rev-parse --show-toplevel [5ms]
+2023-10-27 16:06:31.834 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-27 16:06:31.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [13ms]
+2023-10-27 16:06:31.850 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-27 16:06:31.978 [info] > git status -z -uall [137ms]
+2023-10-27 16:06:32.198 [info] > git config --get commit.template [60ms]
+2023-10-27 16:06:32.231 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [6ms]
+2023-10-27 16:06:32.419 [info] > git status -z -uall [177ms]
+2023-10-27 16:06:32.529 [info] > git check-ignore -v -z --stdin [4ms]
+2023-10-27 16:06:32.635 [info] > git show --textconv :prep/lab6/board.c [38ms]
+2023-10-27 16:06:32.636 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [29ms]
+2023-10-27 16:06:32.657 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [11ms]
+2023-10-27 16:06:33.162 [info] > git fetch [1365ms]
+2023-10-27 16:06:33.162 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:06:33.180 [info] > git config --get commit.template [9ms]
+2023-10-27 16:06:33.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [1ms]
+2023-10-27 16:06:33.294 [info] > git status -z -uall [104ms]
+2023-10-27 16:09:34.655 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [3ms]
+2023-10-27 16:09:34.669 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [2ms]
+2023-10-27 16:09:34.679 [info] > git show --textconv :prep/lab6/board.c [1ms]
+2023-10-27 16:09:34.689 [info] > git fetch [1380ms]
+2023-10-27 16:09:34.689 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:09:34.703 [info] > git config --get commit.template [7ms]
+2023-10-27 16:09:34.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [1ms]
+2023-10-27 16:09:34.785 [info] > git status -z -uall [76ms]
+2023-10-27 16:23:37.992 [info] > git fetch [1227ms]
+2023-10-27 16:23:37.992 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:23:38.003 [info] > git config --get commit.template [6ms]
+2023-10-27 16:23:38.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [1ms]
+2023-10-27 16:23:38.087 [info] > git status -z -uall [78ms]
+2023-10-27 16:23:38.482 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [2ms]
+2023-10-27 16:23:38.495 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [2ms]
+2023-10-27 16:23:38.513 [info] > git show --textconv :prep/lab6/board.c [2ms]
+2023-10-27 16:29:26.294 [info] > git fetch [1228ms]
+2023-10-27 16:29:26.294 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:29:26.310 [info] > git config --get commit.template [8ms]
+2023-10-27 16:29:26.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [2ms]
+2023-10-27 16:29:26.421 [info] > git status -z -uall [102ms]
+2023-10-27 16:29:34.798 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/labs/prep/lab6/board.c [18ms]
+2023-10-27 16:29:34.840 [info] > git cat-file -s 47088c02efd92910559ed58ebc66761f6dc3ade3 [20ms]
+2023-10-27 16:29:34.868 [info] > git show --textconv :prep/lab6/board.c [8ms]
+2023-10-27 16:39:04.139 [info] > git fetch [1157ms]
+2023-10-27 16:39:04.139 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:39:04.150 [info] > git config --get commit.template [6ms]
+2023-10-27 16:39:04.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [13ms]
+2023-10-27 16:39:04.561 [info] > git status -z -uall [394ms]
+2023-10-27 16:55:41.184 [info] > git fetch [1104ms]
+2023-10-27 16:55:41.184 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 16:55:41.196 [info] > git config --get commit.template [6ms]
+2023-10-27 16:55:41.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [1ms]
+2023-10-27 16:55:41.275 [info] > git status -z -uall [74ms]
+2023-10-27 17:09:16.033 [info] > git fetch [1101ms]
+2023-10-27 17:09:16.033 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:09:16.046 [info] > git config --get commit.template [6ms]
+2023-10-27 17:09:16.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/lab6 refs/remotes/lab6 [1ms]
+2023-10-27 17:09:16.127 [info] > git status -z -uall [75ms]
+2023-10-27 17:10:14.710 [info] Log level: Info
+2023-10-27 17:10:14.710 [info] Validating found git in: "git"
+2023-10-27 17:10:14.710 [info] Using git "2.42.0" from "git"
+2023-10-27 17:10:14.710 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-27 17:10:14.893 [info] > git rev-parse --git-dir --git-common-dir [173ms]
+2023-10-27 17:10:14.910 [info] Open repository: /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj
+2023-10-27 17:10:14.958 [info] > git rev-parse --show-toplevel [23ms]
+2023-10-27 17:10:14.959 [info] > git config --get commit.template [31ms]
+2023-10-27 17:10:14.993 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:10:15.001 [info] > git status -z -uall [3ms]
+2023-10-27 17:10:15.020 [info] > git config --get commit.template [10ms]
+2023-10-27 17:10:15.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:10:15.044 [info] > git status -z -uall [2ms]
+2023-10-27 17:10:15.539 [info] > git check-ignore -v -z --stdin [4ms]
+2023-10-27 17:10:15.965 [info] > git fetch [1056ms]
+2023-10-27 17:10:15.965 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:10:15.977 [info] > git config --get commit.template [6ms]
+2023-10-27 17:10:15.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:10:15.985 [info] > git status -z -uall [2ms]
+2023-10-27 17:10:16.431 [info] > git show --textconv :src/file.c [9ms]
+2023-10-27 17:10:16.432 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:10:16.440 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [2ms]
+2023-10-27 17:11:30.806 [info] > git config --get commit.template [7ms]
+2023-10-27 17:11:30.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:11:30.815 [info] > git status -z -uall [2ms]
+2023-10-27 17:11:35.843 [info] > git config --get commit.template [13ms]
+2023-10-27 17:11:35.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:11:35.861 [info] > git status -z -uall [3ms]
+2023-10-27 17:12:04.749 [info] > git config --get commit.template [6ms]
+2023-10-27 17:12:04.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:12:04.757 [info] > git status -z -uall [1ms]
+2023-10-27 17:12:44.795 [info] > git config --get commit.template [14ms]
+2023-10-27 17:12:44.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:12:44.809 [info] > git status -z -uall [4ms]
+2023-10-27 17:13:10.675 [info] > git config --get commit.template [14ms]
+2023-10-27 17:13:10.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:13:10.691 [info] > git status -z -uall [4ms]
+2023-10-27 17:13:17.212 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:13:17.226 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [2ms]
+2023-10-27 17:13:17.242 [info] > git show --textconv :src/file.c [2ms]
+2023-10-27 17:13:17.348 [info] > git fetch [1350ms]
+2023-10-27 17:13:17.348 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:13:17.362 [info] > git config --get commit.template [4ms]
+2023-10-27 17:13:17.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:13:17.391 [info] > git status -z -uall [3ms]
+2023-10-27 17:13:18.414 [info] > git config --get commit.template [5ms]
+2023-10-27 17:13:18.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:13:18.421 [info] > git status -z -uall [1ms]
+2023-10-27 17:14:44.333 [info] > git config --get commit.template [18ms]
+2023-10-27 17:14:44.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [7ms]
+2023-10-27 17:14:44.360 [info] > git status -z -uall [7ms]
+2023-10-27 17:15:00.884 [info] > git config --get commit.template [3ms]
+2023-10-27 17:15:00.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:15:00.917 [info] > git status -z -uall [4ms]
+2023-10-27 17:15:49.532 [info] > git config --get commit.template [7ms]
+2023-10-27 17:15:49.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:15:49.540 [info] > git status -z -uall [2ms]
+2023-10-27 17:16:11.005 [info] > git config --get commit.template [7ms]
+2023-10-27 17:16:11.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:16:11.013 [info] > git status -z -uall [2ms]
+2023-10-27 17:16:16.023 [info] > git config --get commit.template [1ms]
+2023-10-27 17:16:16.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:16:16.037 [info] > git status -z -uall [2ms]
+2023-10-27 17:16:18.512 [info] > git fetch [1112ms]
+2023-10-27 17:16:18.512 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:16:18.519 [info] > git config --get commit.template [1ms]
+2023-10-27 17:16:18.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:16:18.532 [info] > git status -z -uall [2ms]
+2023-10-27 17:16:18.624 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [0ms]
+2023-10-27 17:16:18.630 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [1ms]
+2023-10-27 17:16:18.638 [info] > git show --textconv :src/file.c [1ms]
+2023-10-27 17:16:21.622 [info] > git config --get commit.template [16ms]
+2023-10-27 17:16:21.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:16:21.642 [info] > git status -z -uall [5ms]
+2023-10-27 17:16:30.280 [info] > git config --get commit.template [7ms]
+2023-10-27 17:16:30.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:16:30.287 [info] > git status -z -uall [1ms]
+2023-10-27 17:16:35.314 [info] > git config --get commit.template [13ms]
+2023-10-27 17:16:35.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:16:35.329 [info] > git status -z -uall [4ms]
+2023-10-27 17:16:40.347 [info] > git config --get commit.template [7ms]
+2023-10-27 17:16:40.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:16:40.356 [info] > git status -z -uall [2ms]
+2023-10-27 17:16:45.382 [info] > git config --get commit.template [13ms]
+2023-10-27 17:16:45.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:16:45.399 [info] > git status -z -uall [4ms]
+2023-10-27 17:17:04.861 [info] > git config --get commit.template [6ms]
+2023-10-27 17:17:04.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:17:04.869 [info] > git status -z -uall [3ms]
+2023-10-27 17:17:15.263 [info] > git config --get commit.template [11ms]
+2023-10-27 17:17:15.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:17:15.279 [info] > git status -z -uall [4ms]
+2023-10-27 17:17:22.007 [info] > git check-ignore -v -z --stdin [0ms]
+2023-10-27 17:17:23.621 [info] > git config --get commit.template [9ms]
+2023-10-27 17:17:23.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 17:17:23.632 [info] > git status -z -uall [2ms]
+2023-10-27 17:17:28.650 [info] > git config --get commit.template [6ms]
+2023-10-27 17:17:28.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:17:28.659 [info] > git status -z -uall [2ms]
+2023-10-27 17:17:29.679 [info] > git show --textconv :src/main.c [7ms]
+2023-10-27 17:17:29.679 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 17:17:29.686 [info] > git cat-file -s 29bb26ceb1bb17abda8b2297537146646237e1ac [1ms]
+2023-10-27 17:17:39.931 [info] > git show --textconv :src/file.c [6ms]
+2023-10-27 17:17:39.932 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [1ms]
+2023-10-27 17:17:39.939 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [1ms]
+2023-10-27 17:17:50.120 [info] > git show --textconv :run_all_tests.sh [6ms]
+2023-10-27 17:17:50.121 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/run_all_tests.sh [1ms]
+2023-10-27 17:17:50.128 [info] > git cat-file -s 301707756baeed5ac7aa342cef64a077cb807a18 [1ms]
+2023-10-27 17:17:51.067 [info] > git show --textconv :src/file.c [9ms]
+2023-10-27 17:17:51.068 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:17:51.074 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [1ms]
+2023-10-27 17:17:54.015 [info] > git config --get commit.template [6ms]
+2023-10-27 17:17:54.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:17:54.023 [info] > git status -z -uall [2ms]
+2023-10-27 17:18:16.329 [info] > git config --get commit.template [9ms]
+2023-10-27 17:18:16.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:18:16.336 [info] > git status -z -uall [1ms]
+2023-10-27 17:18:21.352 [info] > git config --get commit.template [6ms]
+2023-10-27 17:18:21.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:18:21.360 [info] > git status -z -uall [2ms]
+2023-10-27 17:18:47.424 [info] > git config --get commit.template [5ms]
+2023-10-27 17:18:47.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:18:47.432 [info] > git status -z -uall [2ms]
+2023-10-27 17:18:58.026 [info] > git config --get commit.template [14ms]
+2023-10-27 17:18:58.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:18:58.052 [info] > git status -z -uall [7ms]
+2023-10-27 17:19:03.068 [info] > git config --get commit.template [6ms]
+2023-10-27 17:19:03.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:19:03.076 [info] > git status -z -uall [2ms]
+2023-10-27 17:19:19.872 [info] > git fetch [1327ms]
+2023-10-27 17:19:19.872 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:19:19.895 [info] > git config --get commit.template [12ms]
+2023-10-27 17:19:19.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:19:19.911 [info] > git status -z -uall [4ms]
+2023-10-27 17:19:22.827 [info] > git config --get commit.template [13ms]
+2023-10-27 17:19:22.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:19:22.845 [info] > git status -z -uall [5ms]
+2023-10-27 17:19:22.921 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:19:22.938 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [3ms]
+2023-10-27 17:19:22.963 [info] > git show --textconv :src/file.c [4ms]
+2023-10-27 17:19:27.864 [info] > git config --get commit.template [5ms]
+2023-10-27 17:19:27.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:19:27.871 [info] > git status -z -uall [2ms]
+2023-10-27 17:20:06.646 [info] > git config --get commit.template [17ms]
+2023-10-27 17:20:06.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [7ms]
+2023-10-27 17:20:06.688 [info] > git status -z -uall [7ms]
+2023-10-27 17:20:11.709 [info] > git config --get commit.template [5ms]
+2023-10-27 17:20:11.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:20:11.716 [info] > git status -z -uall [1ms]
+2023-10-27 17:21:31.975 [info] > git config --get commit.template [10ms]
+2023-10-27 17:21:31.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:21:31.983 [info] > git status -z -uall [1ms]
+2023-10-27 17:21:36.999 [info] > git config --get commit.template [6ms]
+2023-10-27 17:21:37.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:21:37.008 [info] > git status -z -uall [1ms]
+2023-10-27 17:22:03.200 [info] > git config --get commit.template [2ms]
+2023-10-27 17:22:03.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 17:22:03.232 [info] > git status -z -uall [5ms]
+2023-10-27 17:22:08.249 [info] > git config --get commit.template [6ms]
+2023-10-27 17:22:08.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:22:08.257 [info] > git status -z -uall [1ms]
+2023-10-27 17:22:21.130 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:22:21.143 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [3ms]
+2023-10-27 17:22:21.158 [info] > git show --textconv :src/file.c [3ms]
+2023-10-27 17:22:21.324 [info] > git fetch [1392ms]
+2023-10-27 17:22:21.324 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:22:21.347 [info] > git config --get commit.template [11ms]
+2023-10-27 17:22:21.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:22:21.364 [info] > git status -z -uall [4ms]
+2023-10-27 17:23:21.661 [info] > git config --get commit.template [12ms]
+2023-10-27 17:23:21.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 17:23:21.680 [info] > git status -z -uall [3ms]
+2023-10-27 17:23:26.709 [info] > git config --get commit.template [12ms]
+2023-10-27 17:23:26.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:23:26.725 [info] > git status -z -uall [4ms]
+2023-10-27 17:23:47.468 [info] > git config --get commit.template [16ms]
+2023-10-27 17:23:47.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:23:47.487 [info] > git status -z -uall [4ms]
+2023-10-27 17:23:58.257 [info] > git config --get commit.template [11ms]
+2023-10-27 17:23:58.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:23:58.265 [info] > git status -z -uall [2ms]
+2023-10-27 17:24:03.297 [info] > git config --get commit.template [14ms]
+2023-10-27 17:24:03.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:24:03.313 [info] > git status -z -uall [4ms]
+2023-10-27 17:24:31.861 [info] > git config --get commit.template [13ms]
+2023-10-27 17:24:31.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:24:31.879 [info] > git status -z -uall [4ms]
+2023-10-27 17:24:36.909 [info] > git config --get commit.template [11ms]
+2023-10-27 17:24:36.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:24:36.927 [info] > git status -z -uall [4ms]
+2023-10-27 17:25:01.074 [info] > git config --get commit.template [10ms]
+2023-10-27 17:25:01.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:25:01.082 [info] > git status -z -uall [3ms]
+2023-10-27 17:25:26.834 [info] > git config --get commit.template [3ms]
+2023-10-27 17:25:26.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [3ms]
+2023-10-27 17:25:26.874 [info] > git status -z -uall [6ms]
+2023-10-27 17:25:27.947 [info] > git fetch [1132ms]
+2023-10-27 17:25:27.947 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:25:27.958 [info] > git config --get commit.template [6ms]
+2023-10-27 17:25:27.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:25:27.966 [info] > git status -z -uall [2ms]
+2023-10-27 17:25:28.003 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [1ms]
+2023-10-27 17:25:28.009 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [1ms]
+2023-10-27 17:25:28.017 [info] > git show --textconv :src/file.c [2ms]
+2023-10-27 17:25:31.908 [info] > git config --get commit.template [15ms]
+2023-10-27 17:25:31.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:25:31.926 [info] > git status -z -uall [4ms]
+2023-10-27 17:26:30.434 [info] > git config --get commit.template [16ms]
+2023-10-27 17:26:30.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [4ms]
+2023-10-27 17:26:30.457 [info] > git status -z -uall [5ms]
+2023-10-27 17:26:35.473 [info] > git config --get commit.template [6ms]
+2023-10-27 17:26:35.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:26:35.481 [info] > git status -z -uall [2ms]
+2023-10-27 17:26:49.074 [info] > git config --get commit.template [7ms]
+2023-10-27 17:26:49.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:26:49.084 [info] > git status -z -uall [2ms]
+2023-10-27 17:27:31.055 [info] > git check-ignore -v -z --stdin [1ms]
+2023-10-27 17:28:17.828 [info] > git config --get commit.template [18ms]
+2023-10-27 17:28:17.832 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [5ms]
+2023-10-27 17:28:17.846 [info] > git status -z -uall [4ms]
+2023-10-27 17:29:00.876 [info] > git config --get commit.template [8ms]
+2023-10-27 17:29:00.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:29:00.883 [info] > git status -z -uall [1ms]
+2023-10-27 17:29:02.011 [info] > git fetch [1150ms]
+2023-10-27 17:29:02.011 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:29:02.023 [info] > git config --get commit.template [6ms]
+2023-10-27 17:29:02.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [1ms]
+2023-10-27 17:29:02.031 [info] > git status -z -uall [1ms]
+2023-10-27 17:29:11.563 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:29:11.576 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [2ms]
+2023-10-27 17:29:11.586 [info] > git show --textconv :src/file.c [1ms]
+2023-10-27 17:32:16.041 [info] > git fetch [1075ms]
+2023-10-27 17:32:16.041 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:32:16.056 [info] > git config --get commit.template [8ms]
+2023-10-27 17:32:16.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/last_clean refs/remotes/last_clean [2ms]
+2023-10-27 17:32:16.066 [info] > git status -z -uall [2ms]
+2023-10-27 17:32:18.425 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [1ms]
+2023-10-27 17:32:18.435 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [1ms]
+2023-10-27 17:32:18.449 [info] > git show --textconv :src/file.c [3ms]
+2023-10-27 17:34:06.721 [info] > git config --get commit.template [30ms]
+2023-10-27 17:34:06.723 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [18ms]
+2023-10-27 17:34:06.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2023-10-27 17:34:06.751 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [15ms]
+2023-10-27 17:34:06.755 [info] > git status -z -uall [5ms]
+2023-10-27 17:34:06.905 [info] > git show --textconv :src/file.c [6ms]
+2023-10-27 17:34:11.776 [info] > git config --get commit.template [6ms]
+2023-10-27 17:34:11.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-27 17:34:11.783 [info] > git status -z -uall [1ms]
+2023-10-27 17:38:49.830 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [3ms]
+2023-10-27 17:38:49.846 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [3ms]
+2023-10-27 17:38:49.866 [info] > git show --textconv :src/file.c [3ms]
+2023-10-27 17:38:49.970 [info] > git fetch [1341ms]
+2023-10-27 17:38:49.970 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:38:50.001 [info] > git config --get commit.template [14ms]
+2023-10-27 17:38:50.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-27 17:38:50.019 [info] > git status -z -uall [4ms]
+2023-10-27 17:45:43.281 [info] > git fetch [1127ms]
+2023-10-27 17:45:43.281 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:45:43.294 [info] > git config --get commit.template [7ms]
+2023-10-27 17:45:43.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-27 17:45:43.302 [info] > git status -z -uall [1ms]
+2023-10-27 17:45:43.936 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [1ms]
+2023-10-27 17:45:43.949 [info] > git cat-file -s e1a671ed9ccb802565c57c526ae6a1fe4f3f8462 [4ms]
+2023-10-27 17:45:43.960 [info] > git show --textconv :src/file.c [1ms]
+2023-10-27 17:47:08.851 [info] > git config --get commit.template [10ms]
+2023-10-27 17:47:08.857 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [7ms]
+2023-10-27 17:47:08.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [9ms]
+2023-10-27 17:47:08.872 [info] > git cat-file -s 85e4558228868fb5eb7849ec1219d2641dbb7641 [6ms]
+2023-10-27 17:47:08.873 [info] > git status -z -uall [2ms]
+2023-10-27 17:47:08.893 [info] > git show --textconv :src/file.c [1ms]
+2023-10-27 17:47:19.866 [info] > git config --get commit.template [18ms]
+2023-10-27 17:47:19.866 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [10ms]
+2023-10-27 17:47:19.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [7ms]
+2023-10-27 17:47:19.879 [info] > git cat-file -s 85e4558228868fb5eb7849ec1219d2641dbb7641 [7ms]
+2023-10-27 17:47:19.886 [info] > git status -z -uall [7ms]
+2023-10-27 17:47:19.890 [info] > git show --textconv :src/file.c [4ms]
+2023-10-27 17:47:24.918 [info] > git config --get commit.template [13ms]
+2023-10-27 17:47:24.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:47:24.935 [info] > git status -z -uall [4ms]
+2023-10-27 17:47:27.230 [info] > git show --textconv :src/board.c [7ms]
+2023-10-27 17:47:27.231 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 17:47:27.238 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [1ms]
+2023-10-27 17:47:28.936 [info] > git show --textconv :src/move.c [7ms]
+2023-10-27 17:47:28.936 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 17:47:28.943 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [1ms]
+2023-10-27 17:47:48.361 [info] > git show --textconv :src/tileblaster.h [10ms]
+2023-10-27 17:47:48.361 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 17:47:48.368 [info] > git cat-file -s 7b0f12666ce96db613c107f620992db9ca97e0f5 [1ms]
+2023-10-27 17:48:02.135 [info] > git config --get commit.template [13ms]
+2023-10-27 17:48:02.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:48:02.155 [info] > git status -z -uall [4ms]
+2023-10-27 17:48:02.499 [info] > git show --textconv :src/main.c [11ms]
+2023-10-27 17:48:02.501 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [2ms]
+2023-10-27 17:48:02.516 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [3ms]
+2023-10-27 17:48:17.486 [info] > git show --textconv :src/board.c [7ms]
+2023-10-27 17:48:17.486 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 17:48:17.493 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [1ms]
+2023-10-27 17:48:25.431 [info] > git config --get commit.template [12ms]
+2023-10-27 17:48:25.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [4ms]
+2023-10-27 17:48:25.449 [info] > git status -z -uall [4ms]
+2023-10-27 17:48:49.953 [info] > git config --get commit.template [9ms]
+2023-10-27 17:48:49.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [5ms]
+2023-10-27 17:48:49.964 [info] > git status -z -uall [1ms]
+2023-10-27 17:48:51.076 [info] > git fetch [1141ms]
+2023-10-27 17:48:51.076 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:48:51.088 [info] > git config --get commit.template [7ms]
+2023-10-27 17:48:51.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:48:51.095 [info] > git status -z -uall [1ms]
+2023-10-27 17:48:51.122 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 17:48:51.128 [info] > git cat-file -s 0ae4a0d7df5c743e8b71bb2701503719be135371 [1ms]
+2023-10-27 17:48:51.136 [info] > git show --textconv :src/board.c [1ms]
+2023-10-27 17:48:58.534 [info] > git config --get commit.template [10ms]
+2023-10-27 17:48:58.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:48:58.545 [info] > git status -z -uall [4ms]
+2023-10-27 17:49:08.467 [info] > git config --get commit.template [14ms]
+2023-10-27 17:49:08.470 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [4ms]
+2023-10-27 17:49:08.485 [info] > git status -z -uall [5ms]
+2023-10-27 17:49:15.636 [info] > git config --get commit.template [11ms]
+2023-10-27 17:49:15.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:49:15.651 [info] > git status -z -uall [3ms]
+2023-10-27 17:49:36.783 [info] > git config --get commit.template [12ms]
+2023-10-27 17:49:36.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:49:36.796 [info] > git status -z -uall [5ms]
+2023-10-27 17:49:46.488 [info] > git config --get commit.template [9ms]
+2023-10-27 17:49:46.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [4ms]
+2023-10-27 17:49:46.505 [info] > git status -z -uall [2ms]
+2023-10-27 17:49:52.646 [info] > git config --get commit.template [12ms]
+2023-10-27 17:49:52.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:49:52.662 [info] > git status -z -uall [3ms]
+2023-10-27 17:50:01.818 [info] > git config --get commit.template [20ms]
+2023-10-27 17:50:01.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [5ms]
+2023-10-27 17:50:01.841 [info] > git status -z -uall [8ms]
+2023-10-27 17:50:12.670 [info] > git config --get commit.template [6ms]
+2023-10-27 17:50:12.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:50:12.678 [info] > git status -z -uall [1ms]
+2023-10-27 17:50:24.867 [info] > git config --get commit.template [20ms]
+2023-10-27 17:50:24.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [4ms]
+2023-10-27 17:50:24.895 [info] > git status -z -uall [7ms]
+2023-10-27 17:50:40.986 [info] > git config --get commit.template [9ms]
+2023-10-27 17:50:40.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:50:40.995 [info] > git status -z -uall [2ms]
+2023-10-27 17:50:50.068 [info] > git config --get commit.template [9ms]
+2023-10-27 17:50:50.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:50:50.081 [info] > git status -z -uall [4ms]
+2023-10-27 17:50:55.113 [info] > git config --get commit.template [15ms]
+2023-10-27 17:50:55.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:50:55.130 [info] > git status -z -uall [4ms]
+2023-10-27 17:50:55.684 [info] > git show --textconv :src/file.c [12ms]
+2023-10-27 17:50:55.686 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [2ms]
+2023-10-27 17:50:55.701 [info] > git cat-file -s 85e4558228868fb5eb7849ec1219d2641dbb7641 [5ms]
+2023-10-27 17:51:25.794 [info] > git config --get commit.template [12ms]
+2023-10-27 17:51:25.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:51:25.807 [info] > git status -z -uall [4ms]
+2023-10-27 17:51:34.799 [info] > git config --get commit.template [17ms]
+2023-10-27 17:51:34.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:51:34.821 [info] > git status -z -uall [4ms]
+2023-10-27 17:51:40.674 [info] > git config --get commit.template [5ms]
+2023-10-27 17:51:40.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:51:40.683 [info] > git status -z -uall [2ms]
+2023-10-27 17:51:50.969 [info] > git show --textconv :src/move.c [13ms]
+2023-10-27 17:51:50.971 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 17:51:50.992 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [6ms]
+2023-10-27 17:51:52.431 [info] > git fetch [1324ms]
+2023-10-27 17:51:52.431 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:51:52.457 [info] > git config --get commit.template [13ms]
+2023-10-27 17:51:52.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:51:52.472 [info] > git status -z -uall [3ms]
+2023-10-27 17:52:02.426 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 17:52:02.438 [info] > git cat-file -s 2b0af72eebb002ca716b15db5a541f28020b3924 [2ms]
+2023-10-27 17:52:02.451 [info] > git show --textconv :src/move.c [1ms]
+2023-10-27 17:52:26.357 [info] > git config --get commit.template [16ms]
+2023-10-27 17:52:26.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:52:26.378 [info] > git status -z -uall [4ms]
+2023-10-27 17:52:50.651 [info] > git config --get commit.template [16ms]
+2023-10-27 17:52:50.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [5ms]
+2023-10-27 17:52:50.675 [info] > git status -z -uall [6ms]
+2023-10-27 17:52:56.296 [info] > git config --get commit.template [7ms]
+2023-10-27 17:52:56.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:52:56.304 [info] > git status -z -uall [2ms]
+2023-10-27 17:53:02.321 [info] > git config --get commit.template [13ms]
+2023-10-27 17:53:02.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:53:02.337 [info] > git status -z -uall [4ms]
+2023-10-27 17:53:38.601 [info] > git config --get commit.template [2ms]
+2023-10-27 17:53:38.618 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [7ms]
+2023-10-27 17:53:38.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [10ms]
+2023-10-27 17:53:38.635 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [9ms]
+2023-10-27 17:53:38.642 [info] > git status -z -uall [8ms]
+2023-10-27 17:53:38.645 [info] > git show --textconv :src/move.c [3ms]
+2023-10-27 17:53:48.201 [info] > git config --get commit.template [8ms]
+2023-10-27 17:53:48.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:53:48.213 [info] > git status -z -uall [2ms]
+2023-10-27 17:55:58.722 [info] > git config --get commit.template [15ms]
+2023-10-27 17:55:58.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:55:58.740 [info] > git status -z -uall [3ms]
+2023-10-27 17:56:00.010 [info] > git fetch [1318ms]
+2023-10-27 17:56:00.010 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 17:56:00.033 [info] > git config --get commit.template [11ms]
+2023-10-27 17:56:00.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [3ms]
+2023-10-27 17:56:00.048 [info] > git status -z -uall [3ms]
+2023-10-27 17:56:03.647 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [1ms]
+2023-10-27 17:56:03.656 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [2ms]
+2023-10-27 17:56:03.666 [info] > git show --textconv :src/move.c [2ms]
+2023-10-27 17:56:03.758 [info] > git config --get commit.template [6ms]
+2023-10-27 17:56:03.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:56:03.766 [info] > git status -z -uall [1ms]
+2023-10-27 17:56:05.939 [info] > git show --textconv :src/file.c [8ms]
+2023-10-27 17:56:05.939 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/file.c [1ms]
+2023-10-27 17:56:05.947 [info] > git cat-file -s a3bec7dc8759ad71e189d0d2e8f96aab3c5c3057 [1ms]
+2023-10-27 17:56:19.041 [info] > git show --textconv :src/board.c [8ms]
+2023-10-27 17:56:19.041 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [1ms]
+2023-10-27 17:56:19.048 [info] > git cat-file -s 0a6dfc0213314fc8d42713ed44f0493db84fea51 [2ms]
+2023-10-27 17:56:31.894 [info] > git config --get commit.template [6ms]
+2023-10-27 17:56:31.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:56:31.903 [info] > git status -z -uall [2ms]
+2023-10-27 17:56:32.626 [info] > git show --textconv :src/main.c [6ms]
+2023-10-27 17:56:32.626 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/main.c [1ms]
+2023-10-27 17:56:32.633 [info] > git cat-file -s 9f08687ac692eb84d60635743fd41321b40ed9ae [1ms]
+2023-10-27 17:56:34.152 [info] > git show --textconv :src/tileblaster.h [13ms]
+2023-10-27 17:56:34.154 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/tileblaster.h [2ms]
+2023-10-27 17:56:34.167 [info] > git cat-file -s 5c8d02cf54db6a02779a241972087e38643b945e [3ms]
+2023-10-27 17:56:38.892 [info] > git show --textconv :src/board.c [11ms]
+2023-10-27 17:56:38.894 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c [3ms]
+2023-10-27 17:56:38.909 [info] > git cat-file -s 0a6dfc0213314fc8d42713ed44f0493db84fea51 [6ms]
+2023-10-27 17:56:50.461 [info] > git config --get commit.template [17ms]
+2023-10-27 17:56:50.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [4ms]
+2023-10-27 17:56:50.482 [info] > git status -z -uall [4ms]
+2023-10-27 17:56:53.251 [info] > git show --textconv :src/move.c [7ms]
+2023-10-27 17:56:53.252 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 17:56:53.258 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [1ms]
+2023-10-27 17:56:55.500 [info] > git config --get commit.template [5ms]
+2023-10-27 17:56:55.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:56:55.506 [info] > git status -z -uall [1ms]
+2023-10-27 17:57:01.983 [info] > git config --get commit.template [17ms]
+2023-10-27 17:57:01.986 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [6ms]
+2023-10-27 17:57:02.003 [info] > git status -z -uall [6ms]
+2023-10-27 17:57:07.022 [info] > git config --get commit.template [7ms]
+2023-10-27 17:57:07.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:57:07.030 [info] > git status -z -uall [2ms]
+2023-10-27 17:57:12.046 [info] > git config --get commit.template [7ms]
+2023-10-27 17:57:12.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 17:57:12.055 [info] > git status -z -uall [2ms]
+2023-10-27 17:57:18.567 [info] > git config --get commit.template [9ms]
+2023-10-27 17:57:18.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 17:57:18.577 [info] > git status -z -uall [3ms]
+2023-10-27 18:02:05.171 [info] > git config --get commit.template [14ms]
+2023-10-27 18:02:05.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 18:02:05.181 [info] > git status -z -uall [2ms]
+2023-10-27 18:02:06.305 [info] > git fetch [1158ms]
+2023-10-27 18:02:06.305 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 18:02:06.318 [info] > git config --get commit.template [7ms]
+2023-10-27 18:02:06.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 18:02:06.329 [info] > git status -z -uall [2ms]
+2023-10-27 18:02:17.529 [info] > git config --get commit.template [9ms]
+2023-10-27 18:02:17.538 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [10ms]
+2023-10-27 18:02:17.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [8ms]
+2023-10-27 18:02:17.555 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [10ms]
+2023-10-27 18:02:17.556 [info] > git status -z -uall [1ms]
+2023-10-27 18:02:17.570 [info] > git show --textconv :src/move.c [5ms]
+2023-10-27 18:05:11.944 [info] > git fetch [1391ms]
+2023-10-27 18:05:11.944 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 18:05:11.974 [info] > git config --get commit.template [17ms]
+2023-10-27 18:05:11.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [2ms]
+2023-10-27 18:05:11.991 [info] > git status -z -uall [3ms]
+2023-10-27 18:05:12.521 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 18:05:12.538 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [4ms]
+2023-10-27 18:05:12.582 [info] > git show --textconv :src/move.c [1ms]
+2023-10-27 18:19:29.833 [info] > git fetch [1089ms]
+2023-10-27 18:19:29.833 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 18:19:29.843 [info] > git config --get commit.template [5ms]
+2023-10-27 18:19:29.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 18:19:29.851 [info] > git status -z -uall [2ms]
+2023-10-27 18:49:28.640 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [2ms]
+2023-10-27 18:49:28.655 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [3ms]
+2023-10-27 18:49:28.664 [info] > git show --textconv :src/move.c [2ms]
+2023-10-27 18:49:29.755 [info] > git fetch [1133ms]
+2023-10-27 18:49:29.755 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 18:49:29.769 [info] > git config --get commit.template [8ms]
+2023-10-27 18:49:29.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 18:49:29.777 [info] > git status -z -uall [1ms]
+2023-10-27 18:51:54.455 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [4ms]
+2023-10-27 18:51:54.470 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [4ms]
+2023-10-27 18:51:54.485 [info] > git show --textconv :src/move.c [3ms]
+2023-10-27 18:54:54.925 [info] > git fetch [1138ms]
+2023-10-27 18:54:54.925 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-10-27 18:54:54.936 [info] > git config --get commit.template [6ms]
+2023-10-27 18:54:54.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/fuck refs/remotes/fuck [1ms]
+2023-10-27 18:54:54.943 [info] > git status -z -uall [2ms]
+2023-10-27 18:54:56.345 [info] > git ls-files --stage -- /mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c [3ms]
+2023-10-27 18:54:56.357 [info] > git cat-file -s 141d36435185e168eed6124218e5604f37ab27a5 [1ms]
+2023-10-27 18:54:56.367 [info] > git show --textconv :src/move.c [3ms]

@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai++",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "Inconsolata Nerd Font Propo",
+    "editor.fontSize": 22,
+    "editor.detectIndentation": false
+}

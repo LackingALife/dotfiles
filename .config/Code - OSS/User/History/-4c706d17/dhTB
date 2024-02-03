@@ -1,0 +1,4 @@
+compile:
+	gcc lab1.c -o ex1
+debug:
+	gcc lab1.c -o ex1 -g

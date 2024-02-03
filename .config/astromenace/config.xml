@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AstroMenaceSettings>
+    <!-- AstroMenace game Settings -->
+    <MenuLanguage value="en" />
+    <VoiceLanguage value="en" />
+    <FontNumber value="0" />
+    <DisplayIndex value="0" />
+    <Width value="1920" />
+    <Height value="1080" />
+    <Fullscreen value="on" />
+    <!-- Common settings -->
+    <MSAA value="4" />
+    <CSAA value="4" />
+    <VisualEffectsQuality value="0" />
+    <AnisotropyLevel value="16" />
+    <UseGLSL120 value="on" />
+    <ShadowMap value="1" />
+    <MaxPointLights value="6" />
+    <MusicVolume value="8" />
+    <SoundVolume value="10" />
+    <VoiceVolume value="10" />
+    <VSync value="0" />
+    <Brightness value="5" />
+    <ShowFPS value="off" />
+    <WeaponPanelView value="3" />
+    <GameSpeed value="1.500000" />
+    <!-- Control settings -->
+    <KeyBoardLeft value="Left" />
+    <KeyBoardRight value="Right" />
+    <KeyBoardUp value="Up" />
+    <KeyBoardDown value="Down" />
+    <KeyBoardPrimary value="Left Ctrl" />
+    <KeyBoardSecondary value="Space" />
+    <MousePrimary value="1" />
+    <MouseSecondary value="3" />
+    <JoystickPrimary value="0" />
+    <JoystickSecondary value="1" />
+    <JoystickNum value="0" />
+    <JoystickDeadZone value="2" />
+    <ControlSensivity value="5" />
+    <MouseControl value="on" />
+    <LastProfile value="0" />
+    <MenuScript value="1" />
+    <!-- Tips and Hints settings -->
+    <HintStatus1 value="on" />
+    <HintStatus2 value="on" />
+    <HintStatus3 value="on" />
+    <HintStatus4 value="on" />
+    <HintStatus5 value="on" />
+    <HintStatus6 value="on" />
+    <HintStatus7 value="on" />
+    <HintStatus8 value="on" />
+    <HintStatus9 value="on" />
+    <HintStatus10 value="on" />
+</AstroMenaceSettings>

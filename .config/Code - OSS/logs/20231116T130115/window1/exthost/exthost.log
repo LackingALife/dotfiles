@@ -1,0 +1,21 @@
+2023-11-16 13:01:19.564 [info] Extension host with pid 24474 started
+2023-11-16 13:01:19.564 [info] Skipping acquiring lock for /home/peter/.config/Code - OSS/User/workspaceStorage/e22c77f394ed721954553de4d8df8899.
+2023-11-16 13:01:19.605 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-16 13:01:19.619 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2023-11-16 13:01:19.858 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-16 13:01:20.007 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-16 13:01:20.259 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2023-11-16 13:01:20.312 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp', root cause: franneck94.c-cpp-runner
+2023-11-16 13:01:20.501 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp'
+2023-11-16 13:01:20.758 [info] Eager extensions activated
+2023-11-16 13:01:20.764 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 13:01:20.769 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 13:01:20.815 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 13:01:20.823 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 13:01:21.053 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 13:01:21.228 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 13:01:22.145 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-16 13:01:22.693 [error] Error: ENOENT: no such file or directory, open '/home/peter/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2023-11-16 13:02:45.441 [warning] TextEditor is closed/disposed
+2023-11-16 13:02:45.502 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model2)
+2023-11-16 13:02:45.516 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

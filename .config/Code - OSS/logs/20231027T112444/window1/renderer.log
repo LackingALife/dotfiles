@@ -1,0 +1,14 @@
+2023-10-27 11:24:50.000 [info] [perf] Render performance baseline is 51ms
+2023-10-27 15:33:32.991 [error] Unable to read file '/mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c' (Error: File not modified since): Error: Unable to read file '/mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/move.c' (Error: File not modified since)
+    at r.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:645:16535)
+    at r.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:645:16423)
+    at async b.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2349:40499)
+    at async b.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2349:40256)
+    at async L.Cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2338:29189)
+    at async L.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2338:27636)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2349:36367
+2023-10-27 15:55:08.384 [warning] [backup tracker] suspended, ignoring dirty change event file:///mnt/USB_Drive/peterpen/ist/aed/proj-and-test/proj/src/board.c 
+2023-10-27 15:55:13.164 [info] [perf] Render performance baseline is 54ms
+2023-10-27 16:05:36.615 [info] [perf] Render performance baseline is 46ms
+2023-10-27 16:06:33.863 [info] [perf] Render performance baseline is 55ms
+2023-10-27 17:10:17.378 [info] [perf] Render performance baseline is 34ms

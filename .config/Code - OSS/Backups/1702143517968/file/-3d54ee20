@@ -1,0 +1,17 @@
+file:///home/peter/peterpen/ist/pconc/lab1/ex1.c {"mtime":1699806410000,"ctime":1699806223790,"size":278,"etag":"3bfj9488r8u","orphaned":false,"typeId":""}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char **argv) {
+
+    FILE* words = fopen("lusiadas-words.txt", "r");
+    if (!words) {
+        fprintf(stderr, "There is no file named lusiadas-words.txt!\n");
+        exit(EXIT_FAILURE);
+    }
+
+    char **word_array;
+
+    
+
+}

@@ -1,0 +1,14 @@
+2023/10/19-16:59:35.549 f42e Creating DB /home/peter/.config/thorium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
+2023/10/19-16:59:36.032 f42e Reusing MANIFEST /home/peter/.config/thorium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/10/19-16:59:38.024 f430 Level-0 table #5: started
+2023/10/19-16:59:38.076 f430 Level-0 table #5: 1597016 bytes OK
+2023/10/19-16:59:38.096 f430 Delete type=0 #3
+2023/10/19-16:59:38.683 f42e Level-0 table #7: started
+2023/10/19-16:59:38.720 f42e Level-0 table #7: 1034114 bytes OK
+2023/10/19-16:59:38.728 f42e Delete type=0 #4
+2023/10/19-16:59:56.967 f42e Level-0 table #9: started
+2023/10/19-16:59:57.002 f42e Level-0 table #9: 1915904 bytes OK
+2023/10/19-16:59:57.005 f42e Delete type=0 #6
+2023/10/19-17:00:10.357 f42e Level-0 table #11: started
+2023/10/19-17:00:10.396 f42e Level-0 table #11: 1918697 bytes OK
+2023/10/19-17:00:10.399 f42e Delete type=0 #8

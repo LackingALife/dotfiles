@@ -1,0 +1,28 @@
+2023-10-07 19:54:52.277 [info] Getting Manifest... monokai.theme-monokai-pro-vscode
+2023-10-07 19:54:52.682 [info] Installing extension: monokai.theme-monokai-pro-vscode
+2023-10-07 19:54:53.570 [info] Extension signature verification is not done: monokai.theme-monokai-pro-vscode
+2023-10-07 19:54:53.669 [info] Extracted extension to file:///home/peter/.vscode-oss/extensions/monokai.theme-monokai-pro-vscode-1.2.1-universal: monokai.theme-monokai-pro-vscode
+2023-10-07 19:54:53.680 [info] Renamed to /home/peter/.vscode-oss/extensions/monokai.theme-monokai-pro-vscode-1.2.1-universal
+2023-10-07 19:54:53.684 [info] Extracting extension completed. monokai.theme-monokai-pro-vscode
+2023-10-07 19:54:53.702 [info] Extension installed successfully: monokai.theme-monokai-pro-vscode
+2023-10-07 19:54:53.788 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-07 19:56:07.717 [info] Getting Manifest... dcasella.monokai-plusplus
+2023-10-07 19:56:08.124 [info] Installing extension: dcasella.monokai-plusplus
+2023-10-07 19:56:09.069 [info] Extension signature verification is not done: dcasella.monokai-plusplus
+2023-10-07 19:56:09.093 [info] Extracted extension to file:///home/peter/.vscode-oss/extensions/dcasella.monokai-plusplus-2.0.4-universal: dcasella.monokai-plusplus
+2023-10-07 19:56:09.098 [info] Renamed to /home/peter/.vscode-oss/extensions/dcasella.monokai-plusplus-2.0.4-universal
+2023-10-07 19:56:09.101 [info] Extracting extension completed. dcasella.monokai-plusplus
+2023-10-07 19:56:09.115 [info] Extension installed successfully: dcasella.monokai-plusplus
+2023-10-07 19:56:09.186 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/peter/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
