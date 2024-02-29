@@ -1,15 +1,12 @@
 return {
 
-	"navarasu/onedark.nvim",
-	name = "onedark",
+	"tanvirtin/monokai.nvim",
+	name = "monokai",
 	integrations = {
 		mason = "true",
 	},
 	config = function()
-		require('onedark').setup {
-			style = 'darker'
-		}
-		require('onedark').load()
+		require('monokai').setup()
 	end
 
 }

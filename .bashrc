@@ -10,7 +10,8 @@ alias grep='grep --color=auto'
 alias la='ls -a --color=auto'
 alias ll='ls -l --color=auto'
 alias lla='ls -a -l --color=auto'
-PS1='[\u@\h \W]\$ '
+
+PS1='[\u@\h -> \W]\$ '
 # -- START ACTIVESTATE INSTALLATION
 export PATH="/home/peter/.komodoide/12.0/XRE/state/bin:$PATH"
 # -- STOP ACTIVESTATE INSTALLATION
