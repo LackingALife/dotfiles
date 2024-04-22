@@ -87,7 +87,7 @@
     (use-palette no)
     (use-font no)
     (mode disabled)
-    (axes 4 x y pressure xtilt)
+    (axes 5 x y pressure xtilt ytilt)
     (keys 0)
     (pressure-curve
         (curve-type smooth)
@@ -111,7 +111,7 @@
     (use-palette no)
     (use-font no)
     (mode disabled)
-    (axes 4 x y pressure xtilt)
+    (axes 5 x y pressure xtilt ytilt)
     (keys 0)
     (pressure-curve
         (curve-type smooth)

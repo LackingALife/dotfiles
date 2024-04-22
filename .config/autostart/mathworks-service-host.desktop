@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Mathworks Service Host
+Exec=/home/peter/.MathWorks/ServiceHost/Cactus-PC/v2024.4.0.2/bin/glnxa64/MathWorksServiceHost service --realm-id companion@prod@production
+Terminal=false

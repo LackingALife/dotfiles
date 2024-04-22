@@ -14,3 +14,4 @@ vim.opt.rtp:prepend(lazypath)
 
 require("peter_config")
 require("lazy").setup("plugins", opts)
+

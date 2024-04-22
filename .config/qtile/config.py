@@ -74,6 +74,7 @@ keys = [
     Key([mod], "f", lazy.spawn("firefox"), desc="Run firefox"),
     Key([mod], "n", lazy.spawn("nautilus"), desc="Run nautilus"),
     Key([mod], "p", lazy.spawn("pavucontrol"), desc="Run Pavucontrol"),
+    Key([mod], "s", lazy.spawn("flameshot gui"), desc="Take a screenshot"),
 ]
 
 groups = [Group(i) for i in "123456789"]

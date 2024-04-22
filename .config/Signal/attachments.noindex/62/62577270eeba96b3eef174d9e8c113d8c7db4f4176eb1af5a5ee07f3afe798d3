@@ -1,0 +1,277 @@
+
+
+% Parte 3 %
+
+close all;
+clc;
+
+sampleFreq = 50000; % TO CHANGE
+numOfSamples = 50000; % TO CHANGE
+numOfBits = 16;
+totalReps = 10;
+
+Ku = 150; % Constante de proporcionalidade do sensor de tensão
+Ki = 3; % Constante de proporcionalidade do sensor de corrente
+
+uKu = 0.01; % Incerteza do sensor de tensão
+uKi = 0.001; % Incerteza do sensor de corrente
+
+voltageAverage = 0;
+currentAverage = 0;
+voltageRMS = 0;
+currentRMS = 0;
+
+samples = zeros(2,numOfSamples);
+fourierTransform = zeros(2,numOfSamples);
+absFourier = zeros(2,numOfSamples/2+1);
+
+totalAbsFourier = zeros(2,numOfSamples/2+1);
+totalFourier = zeros(2,numOfSamples/2+1);
+
+for rep=1:totalReps
+
+    file_name = sprintf('parte3_economizadora%d.mat', 1);
+    disp(file_name);
+    load(file_name);
+
+
+    %{
+
+    daq_storage = daq("ni");
+    daq_storage.Rate = sampleFreq;
+
+    ch1 = addinput(daq_storage,"Dev1","ai0","Voltage");
+    ch1.Range = [-5,5]; % TO CHANGE
+
+    ch2 = addinput(daq_storage,"Dev1","ai1","Voltage");
+    ch2.Range = [-5,5]; % TO CHANGE
+
+    samples = read(daq_storage, numOfSamples, "OutputFormat", "Matrix");
+
+    %}
+
+    samples(1,:) = voltage_signals(rep,:);
+    samples(2,:) = current_signals(rep,:);
+
+    
+
+    samples(1,:) = samples(1,:) * Ku;
+    samples(2,:) = samples(2,:) * Ki;
+
+    freq = sampleFreq/numOfSamples*(0:(numOfSamples/2));
+
+    max = [0 0];
+    maxId = [1 1];
+    maxFreq = [0 0];
+    valueAverage = [0 0];
+    valueRMS = [0 0];
+
+    for i=1:2
+
+        numOfAquiredSamples = length(samples(i,:));
+
+        fourierTransform(i,:) = fft(samples(i,:));
+
+        absFourier(i,:) = abs(fourierTransform(i,1:numOfAquiredSamples/2+1)/numOfAquiredSamples);
+        absFourier(i,2:end-1) = 2*absFourier(i,2:end-1);
+
+        spectralSize = length(absFourier(i,:));
+
+        %{
+        Para estimar a frequência do sinal podemos ver a frequência que
+        corresponde ao máximo da transformada de Fourier
+        %}
+
+
+        for j = 1:spectralSize
+
+            if (max(i) < absFourier(i,j))
+                max(i) = absFourier(i,j);
+                maxFreq(i) = freq(j);
+                maxId(i) = j;
+            end
+
+        end
+
+        %{
+        O valor médio é calculado somando todos os valores amostrados dentro de
+        ciclos completos e dividindo a soma pelo número de amostras.
+        %}
+
+
+        if (maxFreq(i) ~= 0)
+            samplesInCycle  = sampleFreq / maxFreq(i);
+            numOfCompletedCycles  = floor(numOfAquiredSamples/ samplesInCycle);
+
+            roundedNum = round(numOfCompletedCycles * samplesInCycle);
+        else
+            roundedNum = numOfAquiredSamples;
+        end
+        average = 0;
+        for j = 1:roundedNum
+
+            average = average + samples(i,j);
+
+        end
+        valueAverage(i) = average / numOfAquiredSamples;
+
+        voltageAverage = voltageAverage + valueAverage(1);
+        currentAverage = currentAverage + valueAverage(2);
+
+        %{
+        O valor eficaz é calculado somando os quadrados dos valores amostrados,
+        dividindo esta soma pelo numero de amostras e calculando a raiz quadrada
+        %}
+
+        quadSum = 0;
+        for j = 1:numOfAquiredSamples
+
+            quadSum = quadSum + samples(i,j)*samples(i,j);
+
+        end
+        quadSum = quadSum / numOfAquiredSamples;
+        valueRMS(i) = sqrt(quadSum);
+
+    end
+
+    voltageRMS = voltageRMS + valueRMS(1);
+    currentRMS = currentRMS + valueRMS(2);
+
+    totalAbsFourier = totalAbsFourier + absFourier;
+    totalFourier = totalFourier + fourierTransform(:,1:numOfAquiredSamples/2+1);
+
+end
+
+voltageAverage = voltageAverage / totalReps;
+currentAverage = currentAverage / totalReps;
+
+voltageRMS = voltageRMS / totalReps;
+currentRMS = currentRMS / totalReps;
+
+absFourier = totalAbsFourier / totalReps;
+totalFourier = totalFourier / totalReps;
+
+thd = [0 0];
+thdIndBV = [0 0];
+harmonicsIndB = [0 0];
+
+numOfHarmonics = [20 20]; % TO CHANGE
+
+harmonicsFreq = zeros(2,numOfHarmonics(1));
+harmonicsAmplitude = zeros(2,numOfHarmonics(2));
+
+
+for i = 1:2
+
+    %{
+    Para estimar a frequência do sinal podemos ver a frequência que
+    corresponde ao máximo da transformada de Fourier
+    %}
+
+
+    for j = 1:spectralSize
+
+        if (max < absFourier(i,j))
+            max(i) = absFourier(i,j);
+            maxFreq(i) = freq(j);
+            maxId(i) = j;
+        end
+
+    end
+
+    %{
+    Para obtermos as harmónicas basta multiplicar a frequência fundamental
+    por numeros naturais a partir de 1, ou seja, 2, 3, 4, etc.
+    %}
+
+    
+    harmonicsFreq(i,1) = freq(maxId(i));
+    harmonicsAmplitude(i,1) = max(i)/sqrt(2);
+
+
+    for j=2:numOfHarmonics(i)
+        nextHarmonic = maxId(i)*j;
+        if(nextHarmonic > spectralSize)
+            break;
+        end
+        harmonicsAmplitude(i,j) = 0;
+        for k = -1:1
+            harmonicsAmplitude(i,j) = harmonicsAmplitude(i,j) + absFourier(i,nextHarmonic-j+1+k);
+        end
+        harmonicsFreq(i,j) = freq(nextHarmonic-j+1);
+        harmonicsAmplitude(i,j) = harmonicsAmplitude(i,j)/sqrt(2);
+    end
+    numOfHarmonics(i) = length(harmonicsAmplitude(i,:));
+
+
+    harmonicsVoltage = harmonicsAmplitude(1,:);
+    harmonicsCurrent = harmonicsAmplitude(2,:);
+
+    harmonicsIndB = 20*log10(harmonicsAmplitude);
+
+    harmonicsVoltageIndB = harmonicsIndB(1,:);
+    harmonicsCurrentIndB = harmonicsIndB(2,:);
+
+    %{
+    O valor de THD é calculado somando o quadrado das tensões associadas a
+    cada harmónica, fazendo a raiz desta soma e dividindo pela tensão
+    associada à frequência fundamental
+    %}
+
+    for j = 2:numOfHarmonics
+
+        thd(i) = thd(i) + harmonicsAmplitude(i,j)*harmonicsAmplitude(i,j);
+
+    end
+    thd(i) = sqrt(thd(i)) / harmonicsAmplitude(i,1);
+    thdIndBV(i) = 20*log10(thd(i));
+
+end
+
+aparentPower = currentRMS * voltageRMS;
+
+phaseDifference = abs(angle(totalFourier(1,maxId(1))) - angle(totalFourier(2,maxId(2))));
+
+activePower = aparentPower * cos(phaseDifference);
+
+% Incerteza absoluta da potencia ativa
+
+ucPa = sqrt(voltageRMS*voltageRMS*uKi*uKi+currentRMS*currentRMS*uKu*uKu);
+
+% Incerteza relativa da potencia ativa
+
+urPa = ucPa / activePower * 100;
+
+absFourierIndB = 20*log10(absFourier);
+
+subplot(2,2,1);
+
+n1 = 0:1:numOfAquiredSamples-1;
+time = n1/sampleFreq;
+plot(time(1:samplesInCycle*5), samples(1,1:samplesInCycle*5));
+title(sprintf('Tensao na rede'));
+xlabel("Tempo [s]");
+ylabel("Tensão [V]");
+
+subplot(2,2,3);
+
+plot(freq, absFourierIndB(1,:), '.-');
+title("Espetro da Tensao na rede");
+xlabel("Frequência [Hz]");
+ylabel("Tensão [dBV]");
+
+subplot(2,2,2);
+
+n1 = 0:1:numOfAquiredSamples-1;
+time = n1/sampleFreq;
+plot(time(1:samplesInCycle*5), samples(2,1:samplesInCycle*5));
+title(sprintf('Corrente na carga'));
+xlabel("Tempo [s]");
+ylabel("Corrente [A]");
+
+subplot(2,2,4);
+
+plot(freq, absFourierIndB(1,:), '.-');
+title("Espetro da Corrente na carga");
+xlabel("Frequência [Hz]");
+ylabel("Corrente [dBA]");

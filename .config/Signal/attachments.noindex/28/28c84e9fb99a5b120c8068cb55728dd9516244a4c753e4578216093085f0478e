@@ -1,0 +1,215 @@
+clear all;
+
+% setting sampling params %
+sampling_freq = 32000;
+N_aq = 24000;
+range = 2.5;
+reps = 4;
+
+spectrum_n_all = 0;
+rms_all_tmp = 0;
+
+plot_idx = 1;
+
+for j = 1:reps
+
+    % getting data from our DAQ %
+    daq_storage = daq("ni");
+    daq_storage.Rate = sampling_freq;
+
+    ch_0 = addinput(daq_storage,"Dev2","ai0","Voltage");
+    ch_1 = addinput(daq_storage,"Dev2","ai1","Voltage");
+    ch.Range = [-range, range];
+
+    samples = read(daq_storage, N_aq, "OutputFormat", "Matrix");
+    samples = samples.';
+
+    for i = 1 : 2
+
+        if i == 1
+            samples(i,:) = samples(i,:) * 155.663;
+        end
+
+        if i == 2
+            samples(i,:) = samples(i,:) * 2.8197;
+        end
+
+        % fft of samples %
+        spectrum(i,:) = fft(samples(i,:));
+        spectrum(i,:) = fftshift(spectrum(i,:));
+
+
+        % frequency vector %
+        freq_res = sampling_freq / N_aq;
+        freq_vec = 0 : length(spectrum(1,:))./2 - 1;
+        freq_vec = freq_vec * freq_res;
+
+
+        % using half of the spectrum %
+        spectrum_h(i,:) = abs(spectrum(i,length(spectrum(i,:))./2 +1 : end));
+
+
+        % normalized vector %
+        spectrum_n(i,:) = spectrum_h(i,:) ./ N_aq * 2;
+        spectrum_n(1,:) = spectrum_h(1,:) ./ N_aq;
+
+        % rms %
+        sum_ = 0;
+
+        for k = 1 : N_aq
+            sum_ = sum_ + samples(i,k) .* samples(i,k);
+        end
+
+        rms(i) = sqrt(sum_ / N_aq);
+
+        spectrum_n_all = spectrum_n_all + spectrum_n;
+        rms_all_tmp = rms_all_tmp + rms(i);
+        rms_all(i) = rms_all_tmp;
+
+    end
+
+end
+
+for i = 1 : 2
+    spectrum_n(i,:) = spectrum_n_all(i,:) ./ reps;
+    rms(i) = rms_all(i) / reps;
+
+
+    % estimating frequency %
+    [peak, peak_idx] = max(spectrum_n(i,:));
+
+    neighbor_idx = 0;
+
+    if (peak_idx -1 <= 0)
+        L = peak_idx;
+        neighbor_idx = peak_idx +1;
+
+    elseif (spectrum_n(i,peak_idx -1) > spectrum_n(i,peak_idx +1)) % Find suitable neighbor to use in ipDFT formula %
+    	neighbor_idx = peak_idx -1;
+    	L = neighbor_idx;
+
+    else
+    	L = peak_idx;
+       	neighbor_idx = peak_idx +1;
+    end
+
+
+    % calculating ipDFT for frequency estimation %
+    Upk = real(spectrum_n(i,L));
+    Une = real(spectrum_n(i,L+1));
+    Vpk = imag(spectrum_n(i,L));
+    Vne = imag(spectrum_n(i,L+1));
+
+    n = 2*pi / N_aq; % radians per acquisition %
+
+    Vr = Vne - Vpk;
+    Ur = Une - Upk;
+
+    peak_rad     = n * peak_idx;
+    neighbor_rad = n * neighbor_idx;
+
+    Kopt = (Vr * sin(peak_rad) + Ur * cos(peak_rad)) / Ur;
+
+    Zpk = Vpk * (Kopt - cos(peak_rad)     / sin(peak_rad)) + Upk;
+    Zne = Vne * (Kopt - cos(neighbor_rad) / sin(neighbor_rad)) + Une;
+
+    Zr = Zne - Zpk;
+
+    lambda = acos((Zne * cos(neighbor_rad) - Zpk * cos(peak_rad)) / Zr) / n -1;
+    est_freq(i) = abs(lambda * freq_res);
+
+
+    % power %
+    power(i,:) = spectrum_n(i,:) ./ sqrt(2);
+    power(i,:) = power(1,:).^2;
+
+    power_db(i,:) = 10 * log10(power(i,:));
+
+
+    % mean value %
+    s_p  = sampling_freq / est_freq(i); % samples per period %
+    N_cp  = floor(N_aq / s_p);       % number of completed periods %
+
+    N_rounded = round(N_cp * s_p);
+
+    sum_ = 0;
+
+    for k = 1:N_rounded
+        sum_ = sum_ + samples(k);
+    end
+
+    avg_volts(i) = sum_ / N_rounded;
+
+  
+% harmonics %
+N_h = 11; 
+
+h_freq_idx = 1 : N_h;
+h_freq_idx = (h_freq_idx) * (peak_idx -1);
+h_freq = h_freq_idx * freq_res;
+
+for k = 1 : N_h
+    h_volt(i,k) = spectrum_n(h_freq_idx(k));
+end
+
+h_volt_rms(i,:) = h_volt(i,:) / sqrt(2);
+
+
+    
+% thd %
+sum_ = 0;
+for k = 2 : N_h
+  sum_  = sum_ + h_volt_rms(k) * h_volt_rms(k);
+end
+
+thd(i) = sqrt(sum_) / h_volt(1);
+thd_dB(i) = 20 * log10(thd(i));
+    
+ 
+
+    % powers %
+    idx = round(est_freq(i) / sampling_freq * N_rounded) +1;
+    fundamentalPowerAmp = power(i,idx);
+    fundamentalPower1 = 10*log10(fundamentalPowerAmp);
+    fundamentalPower2 = 10*log10(range);
+
+    if (fundamentalPower1 > fundamentalPower2)
+        fundamentalPower = fundamentalPower1;
+    else
+        fundamentalPower = fundamentalPower2;
+    end
+
+
+    % Potência de ruído
+    power_mean_db(i,:) = 10*log10(sum(power(i,:)) / N_rounded);
+
+
+    % sinad & enob %
+    sinad(i) = abs(fundamentalPower - power_mean_db(i));
+    enob(i) = (sinad(i) - 1.76) / 6.02;
+
+
+% plot %
+subplot(2, 2, plot_idx);
+plot_idx = plot_idx + 1;
+
+plot((0:N_aq-1) / sampling_freq, samples(i,:));
+xlim([0 N_aq/sampling_freq/s_p * 5]); 
+xlabel('Sampler \Delta time / s');
+ylabel('Sampled signal amplitude / V');
+title(sprintf('Sampled signal\n Estimated original signal frequency: %f Hz\nRMS: %f\n Number of acquisitions: %d Sampler Frequency:%f\n Range:[%d,%d]', est_freq(i), rms(i), N_aq, sampling_freq, -range, range));
+
+subplot(2,2,plot_idx);
+plot_idx = plot_idx + 1;
+
+spectral_resol = sampling_freq / N_aq;
+
+power_vec = 2 * abs(spectrum_n(i,:)) / sqrt(2);
+x2 = 0 : spectral_resol : spectral_resol * (N_aq/2 -1);
+plot(x2, 20*log10(power_vec(1 : N_aq/2) / N_aq), '.-'); % log scale %
+
+xlabel('Frequency / Hz');
+ylabel('Logarithmic power / dBV^2');
+title(sprintf('Single-sided Logarithmic signal power'));
+
+end

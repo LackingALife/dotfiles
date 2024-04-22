@@ -1,0 +1,146 @@
+
+
+% PARTE 1 %
+
+close all;
+clc;
+
+% Para experimentar exemplos
+
+file_name = sprintf('parte1_exemplo%d.mat', 1);
+disp(file_name);
+load(file_name);
+
+sampleFreq = 25000; % TO CHANGE
+numOfSamples = 300; % TO CHANGE
+
+
+%{
+daq_storage = daq("ni");
+daq_storage.Rate = sampleFreq;
+
+ch = addinput(daq_storage,"Dev1","ai0","Voltage");
+ch.Range = [-5,5]; % TO CHANGE
+
+samples = read(daq_storage, numOfSamples, "OutputFormat", "Matrix");
+%}
+samples = y;
+
+
+numOfAquiredSamples = length(samples);
+
+%{
+O valor médio é calculado somando todos os valores amostrados e
+dividindo a soma pelo número de amostras
+%}
+
+average = 0;
+for i = 1:numOfAquiredSamples
+
+    average = average + samples(i);
+
+end
+average = average / numOfAquiredSamples;
+
+%{
+O valor eficaz é calculado somando os quadrados dos valores amostrados,
+dividindo esta soma pelo numero de amostras e calculando a raiz quadrada
+%}
+
+quadSum = 0;
+for i = 1:numOfAquiredSamples
+
+    quadSum = quadSum + samples(i)*samples(i);
+
+end
+quadSum = quadSum / numOfAquiredSamples;
+voltageRMS = sqrt(quadSum);
+
+%{
+Para estimar a frequência do sinal podemos ver a frequencia que
+corresponde ao máximo da transformada de Fourier
+%}
+
+spectralResolution = sampleFreq / numOfSamples;
+fourierTransform = fft(samples);
+
+absFourier = abs(fourierTransform(1:numOfAquiredSamples/2+1)/numOfAquiredSamples);
+
+absFourier(2:end-1) = 2*absFourier(2:end-1);
+
+spectralSize = length(absFourier);
+
+freq = 0:spectralResolution:spectralResolution*(numOfAquiredSamples-1);
+
+max = 0;
+maxId = 1;
+for i = 2:spectralSize
+
+    if (max < abs(fourierTransform(i)))
+        max = abs(fourierTransform(i));
+        maxFreq = freq(i);
+        maxId = i;
+    end
+
+end
+
+numOfHarmonics = 20; % TO CHANGE
+
+harmonicsFreq = zeros(numOfHarmonics);
+harmonicsVoltage = zeros(numOfHarmonics);
+
+
+harmonicsFreq(1) = freq(maxId);
+harmonicsVoltage(1) = abs(max)/sqrt(2);
+lastHarmonic = maxId;
+
+for i=2:numOfHarmonics
+        nextHarmonic = lastHarmonic + maxId;
+        if(nextHarmonic > spectralSize / 2)
+                break;
+        end
+        harmonicsVoltage(i) = 0;
+        for j = -1:1
+            harmonicsVoltage(i) = harmonicsVoltage(i) + abs(fourierTransform(nextHarmonic-i+1+j));
+        end
+        harmonicsFreq(i) = freq(nextHarmonic-i+1);
+        harmonicsVoltage(i) = harmonicsVoltage(i)/sqrt(2);
+        lastHarmonic = nextHarmonic;
+end
+numOfHarmonics = length(harmonicsVoltage);
+
+%{
+O valor de THD é calculado somando o quadrado das tensões associadas a
+cada harmónica, fazendo a raiz desta soma e dividindo pela tensão
+associada à frequência fundamental
+%}
+
+thd = 0;
+for i = 2:numOfHarmonics
+
+    thd = thd + harmonicsVoltage(i)*harmonicsVoltage(i);
+
+end
+thd = sqrt(thd) / harmonicsVoltage(1);
+thdIndBV = 20*log10(thd);
+
+temporalResolution = 1 / sampleFreq;
+
+subplot(2,1,1);
+
+n = 0:1:numOfAquiredSamples-1;
+time = n/sampleFreq;
+plot(time, samples);
+title(sprintf('Frequência estimada: %d Hz\nValor médio: %d V\nValor eficaz: %d V\nNúmero de amostras adquiridas: %d\nFrequência de amostragem: %d Hz\nAlcance: [-5,5] V', maxFreq, average, voltageRMS,numOfAquiredSamples, sampleFreq));
+xlabel("t [s]");
+ylabel("V [V]");
+
+subplot(2,1,2);
+
+fftInDb = 20*log10(absFourier);
+power = 2*absFourier/sqrt(2);
+final = 20*log10(power);    
+plot(freq(1:spectralSize/2), final(1:spectralSize/2), '.-');
+title("Potência");
+xlabel("f [Hz]");
+ylabel("Power [dBV^2]");

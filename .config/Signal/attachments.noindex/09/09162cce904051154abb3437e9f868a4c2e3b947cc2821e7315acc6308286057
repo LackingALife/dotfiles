@@ -1,0 +1,183 @@
+
+
+% PARTE 2 %
+
+close all;
+clc;
+
+% Para experimentar exemplos
+
+file_name = sprintf('parte2_exemplo%d.mat', 1);
+disp(file_name);
+load(file_name);
+
+sampleFreq = 25000; % TO CHANGE
+numOfSamples = 30000; % TO CHANGE
+numOfBits = 16;
+
+totalFourier = zeros(1,numOfSamples/2+1);
+totalReps = 5;
+
+voltageRMS = 0;
+voltageMax = 0;
+voltageMin = 0;
+
+for rep=1:totalReps
+
+    %{
+Para amostrar o sinal
+    %}
+
+    %{
+daq_storage = daq("ni");
+daq_storage.Rate = sampleFreq;
+
+ch = addinput(daq_storage,"Dev1","ai0","Voltage");
+ch.Range = [-5,5]; % TO CHANGE
+
+samples = read(daq_storage, numOfSamples, "OutputFormat", "Matrix");
+
+    %}
+
+    samples = y(rep,:);
+
+    numOfAquiredSamples = length(samples);
+
+    %{
+Para obter a Transformada de Fourier usamos a função fft, no entanto as
+frequências aparecem com valores negativos e positivos, com metade do valor
+real. Assim restrimo-nos a metade dos valores (negativos ou positivos)
+a contar com o ZERO, e muliplicamos todos os valores exceto o correspondente
+à frequêcia ZERO.
+    %}
+
+    spectralResolution = sampleFreq / numOfSamples;
+
+    fourierTransform = fft(samples);
+
+    absFourier = abs(fourierTransform(1:numOfAquiredSamples/2+1)/numOfAquiredSamples);
+    absFourier(2:end-1) = 2*absFourier(2:end-1);
+
+    freq = sampleFreq/numOfAquiredSamples*(0:(numOfAquiredSamples/2));
+
+    totalFourier = totalFourier + absFourier;
+
+    %{
+O valor eficaz é calculado somando os quadrados dos valores amostrados,
+dividindo esta soma pelo numero de amostras e calculando a raiz quadrada
+    %}
+
+    quadSum = 0;
+    for i = 1:numOfAquiredSamples
+
+        quadSum = quadSum + samples(i)*samples(i);
+
+    end
+    quadSum = quadSum / numOfAquiredSamples;
+    vRMS = sqrt(quadSum);
+
+    voltageRMS = voltageRMS + vRMS;
+
+    %{
+Precisamos de medir a tensao máxima e mínima para calcularmos o step,
+que é necessário para calcular o Noise Floor ideal
+    %}
+
+    vMax = -inf;
+    vMin = +inf;
+    for i = 1:numOfAquiredSamples
+
+        if (samples(i) < vMin)
+            vMin = samples(i);
+        end
+        if (samples(i) > vMax)
+            vMax = samples(i);
+        end
+
+    end
+
+    voltageMax = voltageMax + vMax;
+    voltageMin = voltageMin + vMin;
+
+end
+
+absFourier = totalFourier / totalReps;
+voltageRMS = voltageRMS / totalReps;
+
+spectralSize = length(absFourier);
+
+%{
+
+%}
+
+potency = (absFourier/sqrt(2)).^2;
+powerInDb = 10*log10(potency);
+
+fftInDb = 20*log10(absFourier);
+
+
+
+%{
+Para estimar a frequência do sinal podemos ver a frequência que
+corresponde ao máximo da transformada de Fourier
+%}
+
+max = 0;
+maxId = 1;
+for i = 1:spectralSize
+
+    if (max < absFourier(i))
+        max = absFourier(i);
+        maxFreq = freq(i);
+        maxId = i;
+    end
+
+end
+
+samplesInCycle  = sampleFreq / maxFreq;
+numOfCompletedCycles  = floor(numOfAquiredSamples/ samplesInCycle);
+
+roundedNum = round(numOfCompletedCycles * samplesInCycle);
+
+%{
+O primeiro gráfico representa o sinal amostrado
+O segundo gráfico representa a p otência do sinal
+%}
+
+sum1 = sum(potency);
+
+temporalResolution = 1 / sampleFreq;
+
+step = (voltageMax - voltageMin)/(2.^numOfBits);
+
+idealNoiseRMS = step / sqrt(12);
+
+signalPowerdB = powerInDb(maxId);
+noiseFloordB = 10*log10( sum1 /spectralSize);
+noiseFloorRMS = 10.^(noiseFloordB/20);
+
+idealSINAD = 6.02*numOfBits + 1.76;
+sinad = signalPowerdB - noiseFloordB;
+enob = (sinad - 1.76) / 6.02;
+
+%{
+O primeiro gráfico representa 5 períodos do sinal amostrado
+O segundo gráfico representa a potência média do sinal
+%}
+
+
+subplot(2,1,1);
+
+n1 = 0:1:numOfAquiredSamples-1;
+time = n1/sampleFreq;
+plot(time(1:samplesInCycle*5), samples(1:samplesInCycle*5));
+title(sprintf('Sinal Amostrado\nValor eficaz: %d V\nRuído eficaz: %d V\nSINAD: %d\nENOB: %d\nNúmero de amostras adquiridas: %d\nFrequência de amostragem: %d Hz\nAlcance: [-5,5] V', voltageRMS, noiseFloorRMS, sinad, enob,numOfAquiredSamples, sampleFreq));
+xlabel("Tempo [s]");
+ylabel("Tensão [V]");
+
+subplot(2,1,2);
+
+plot(freq, powerInDb, '.-');
+title("Espetro de Potência");
+xlabel("Frequência [Hz]");
+ylabel("Potência logarítmica [dBV^2]");

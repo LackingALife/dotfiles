@@ -56,5 +56,5 @@ nitrogen --restore &
 picom &
 dunst & 
 exec polybar -r &
+#exec dwm
 exec qtile start
-#exec i3
