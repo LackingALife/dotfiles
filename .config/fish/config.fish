@@ -10,6 +10,12 @@ alias MatLab="export _JAVA_AWT_WM_NONREPARENTING=1 & matlab &"
 
 thefuck --alias | source
 
+zoxide init fish | source
+
+starship init fish | source
+
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+
 function bind_bang
     switch (commandline -t)[-1]
         case "!"

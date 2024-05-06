@@ -4,5 +4,6 @@
     "font_size_points": 16,
     "editor_theme": "Merbivore Soft",
     "pdf_previewer": "none",
-    "posix_terminal_shell": "bash"
+    "posix_terminal_shell": "bash",
+    "jobs_tab_visibility": "shown"
 }

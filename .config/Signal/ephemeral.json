@@ -3,12 +3,13 @@
   "theme-setting": "dark",
   "spell-check": true,
   "window": {
-    "maximized": false,
+    "maximized": true,
     "autoHideMenuBar": false,
     "fullscreen": false,
-    "width": 952,
-    "height": 1008,
-    "x": 966,
-    "y": 28
-  }
+    "width": 1890,
+    "height": 995,
+    "x": 15,
+    "y": 70
+  },
+  "system-tray-setting": "DoNotUseSystemTray"
 }

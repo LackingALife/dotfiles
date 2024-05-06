@@ -4,6 +4,7 @@ text/plain=nvim.desktop
 text/csv=libreoffice-calc.desktop
 x-scheme-handler/sgnl=signal-desktop.desktop
 x-scheme-handler/signalcaptcha=signal-desktop.desktop
+application/pdf=firefox.desktop
 
 [Added Associations]
 application/x-python-bytecode=code-oss.desktop;
@@ -12,3 +13,4 @@ text/plain=kitty-open.desktop;nvim.desktop;
 text/csv=libreoffice-calc.desktop;
 application/x-trash=kitty-open.desktop;
 application/octet-stream=wine-extension-jft.desktop;
+application/pdf=libreoffice-writer.desktop;firefox.desktop;

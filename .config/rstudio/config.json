@@ -11,9 +11,9 @@
 		"zoomLevel": 1,
 		"windowBounds": {
 			"x": 0,
-			"y": 32,
-			"width": 800,
-			"height": 600,
+			"y": 24,
+			"width": 1920,
+			"height": 1056,
 			"maximized": true
 		},
 		"accessibility": false,
