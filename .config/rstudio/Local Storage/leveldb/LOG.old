@@ -1,3 +1,3 @@
-2024/05/01-16:52:52.783 25c8 Reusing MANIFEST /home/peter/.config/rstudio/Local Storage/leveldb/MANIFEST-000001
-2024/05/01-16:52:52.784 25c8 Recovering log #3
-2024/05/01-16:52:52.784 25c8 Reusing old log /home/peter/.config/rstudio/Local Storage/leveldb/000003.log 
+2024/06/04-15:20:22.219 50b Reusing MANIFEST /home/peter/.config/rstudio/Local Storage/leveldb/MANIFEST-000001
+2024/06/04-15:20:22.221 50b Recovering log #3
+2024/06/04-15:20:22.221 50b Reusing old log /home/peter/.config/rstudio/Local Storage/leveldb/000003.log 

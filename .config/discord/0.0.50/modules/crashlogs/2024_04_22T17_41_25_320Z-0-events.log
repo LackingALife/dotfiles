@@ -1,7 +1,0 @@
-2024-04-22T17:41:25.332Z 0: 
-
-----------------------------------------------
-2024-04-22T17:41:25.346Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.50"}, modulepath: /home/peter/.config/discord/0.0.50/modules
-2024-04-22T17:41:25.353Z 2: ✅ webContents.created web1 ""
-2024-04-22T17:41:25.367Z 3: ✅ window.created win1 "discord"
-2024-04-22T17:41:25.740Z 4: ✅ webContents.did-finish-load web1

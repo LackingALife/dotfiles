@@ -4,17 +4,19 @@ end
 
 set fish_greeting 
 
+export SDL_VIDEODRIVER=wayland
+export _JAVA_AWT_WM_NONREPARENTING=1
+export QT_QPA_PLATFORM=wayland
+export XDG_CURRENT_DESKTOP=sway
+export XDG_SESSION_DESKTOP=sway
+
 alias timkb="setxkbmap -layout us,pt -variant colemak,"
 alias peterkb="setxkbmap -layout us,pt"
-alias MatLab="export _JAVA_AWT_WM_NONREPARENTING=1 & matlab &"
+alias resetbar="sh ~/.config/waybar/waybar.sh"
 
 thefuck --alias | source
 
 zoxide init fish | source
-
-starship init fish | source
-
-starship preset gruvbox-rainbow -o ~/.config/starship.toml
 
 function bind_bang
     switch (commandline -t)[-1]

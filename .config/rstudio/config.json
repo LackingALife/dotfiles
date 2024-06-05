@@ -8,12 +8,12 @@
 		"fixedWidthFont": "DaddyTimeMono Nerd Font Mono"
 	},
 	"view": {
-		"zoomLevel": 1,
+		"zoomLevel": 1.5,
 		"windowBounds": {
-			"x": 0,
-			"y": 24,
-			"width": 1920,
-			"height": 1056,
+			"x": 10,
+			"y": 40,
+			"width": 1900,
+			"height": 1000,
 			"maximized": true
 		},
 		"accessibility": false,

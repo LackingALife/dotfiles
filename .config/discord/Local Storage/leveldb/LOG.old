@@ -1,6 +1,3 @@
-2024/01/07-15:32:17.073 125d8 Reusing MANIFEST /home/peter/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/01/07-15:32:17.074 125d8 Recovering log #258
-2024/01/07-15:32:17.075 125d8 Reusing old log /home/peter/.config/discord/Local Storage/leveldb/000258.log 
-2024/01/07-15:34:45.389 12b7e Level-0 table #264: started
-2024/01/07-15:34:45.412 12b7e Level-0 table #264: 714425 bytes OK
-2024/01/07-15:34:45.415 12b7e Delete type=0 #258
+2024/06/05-17:13:12.689 d28 Reusing MANIFEST /home/peter/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/06/05-17:13:12.690 d28 Recovering log #292
+2024/06/05-17:13:12.690 d28 Reusing old log /home/peter/.config/discord/Local Storage/leveldb/000292.log 

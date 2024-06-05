@@ -18,14 +18,15 @@ set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu pkill yofi || yofi
+set $menu fuzzel
 
 set $browser firefox
 set $filemanager nautilus
 
 exec rm -f /tmp/sovpipe && mkfifo /tmp/sovpipe && tail -f /tmp/sovpipe | sov -t 500
 
-exec waybar
+exec waybar -c $HOME/.config/waybar/config-top
+exec waybar -c $HOME/.config/waybar/config-bot
 
 ### Output configuration
 #
@@ -52,8 +53,8 @@ exec swayidle -w \
 # resumed. It will also lock your screen before your computer goes to sleep.
 
 input * {
-    xkb_layout "pt,us"
-    xkb_options "caps:swapescape"
+	xkb_layout "us,pt"
+    xkb_options "grp:rctrl_toggle"
 }
 
 input <identifier> xkb_model "pc101"
@@ -72,7 +73,7 @@ input "1739:33525:SYNA3091:00_06CB:82F5_Touchpad" {
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 
-gaps inner 0
+gaps inner 10
 
 ### Key bindings
 #

@@ -1,3 +1,3 @@
-2024/01/07-16:20:15.892 16d4e Reusing MANIFEST /home/peter/.config/discord/shared_proto_db/metadata/MANIFEST-000001
-2024/01/07-16:20:15.892 16d4e Recovering log #3
-2024/01/07-16:20:15.893 16d4e Reusing old log /home/peter/.config/discord/shared_proto_db/metadata/000003.log 
+2024/06/03-15:10:20.220 380 Reusing MANIFEST /home/peter/.config/discord/shared_proto_db/metadata/MANIFEST-000001
+2024/06/03-15:10:20.220 380 Recovering log #3
+2024/06/03-15:10:20.225 380 Reusing old log /home/peter/.config/discord/shared_proto_db/metadata/000003.log 

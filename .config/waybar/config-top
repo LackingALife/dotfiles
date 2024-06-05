@@ -1,0 +1,144 @@
+{
+
+"layer": "top",
+"position": "top",
+"height": 30,
+"spacing": 10,
+
+"modules-left": [
+	"sway/mode",
+	"tray"
+],
+
+"modules-center": [
+	"sway/window"
+],
+
+"modules-right": [
+	"mpd",
+	"idle_inhibitor",
+	"backlight",
+    "pulseaudio",
+	"sway/language",
+	"keyboard-state",
+	"battery",
+	"clock#date",
+	"clock#time"
+],
+
+// Modules config - Left -------------------------------------------------------------------------------------------
+
+"sway/mode": {
+	"format": "<span style=\"italic\">  {}</span>", // Icon: expand-arrows-alt
+	"max-length": 50,
+	"tooltip": false
+},
+
+"tray": {
+    // "icon-size": 21,
+    "spacing": 10
+},
+
+// Modules config - Center -------------------------------------------------------------------------------------------
+
+// Modules config - Right -------------------------------------------------------------------------------------------
+
+"mpd": {
+	"format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+	"format-disconnected": "Disconnected ",
+	"format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+	"unknown-tag": "N/A",
+	"interval": 5,
+	"consume-icons": {
+		"on": " "
+	},
+	"random-icons": {
+		"off": "<span color=\"#f53c3c\"></span> ",
+		"on": " "
+	},
+	"repeat-icons": {
+		"on": " "
+	},
+	"single-icons": {
+		"on": "1 "
+	},
+	"state-icons": {
+		"paused": "",
+		"playing": ""
+	},
+	"tooltip-format": "MPD (connected)",
+	"tooltip-format-disconnected": "MPD (disconnected)"
+},
+
+"idle_inhibitor": {
+	"format": "{icon}",
+	"format-icons": {
+		"activated": " ",
+		"deactivated": " "
+	}
+},
+
+"backlight": {
+	"format": "{icon}  {percent}%",
+	"format-icons": ["󰃞 ", "󰃟 ", "󰃠 "],
+	"on-scroll-up": "light -A 1 > /dev/null",
+	"on-scroll-down": "light -U 1 > /dev/null"
+},
+
+"pulseaudio": {
+	// "scroll-step": 1, // %, can be a float
+	"format": "{volume}% {icon} {format_source}",
+	"format-bluetooth": "{volume}% {icon} {format_source}",
+	"format-bluetooth-muted": " {icon} {format_source}",
+	"format-muted": " {format_source}",
+	"format-source": "{volume}%  ",
+	"format-source-muted": " ",
+	"format-icons": {
+		"headphone": "",
+		"hands-free": "",
+		"headset": "",
+		"phone": "",
+		"portable": "",
+		"car": "",
+		"default": ["", "", ""]
+	},
+	"on-click": "pavucontrol"
+},
+
+"keyboard-state": {
+    "capslock": true,
+    "format": "{name} {icon} ",
+    "format-icons": {
+        "locked": " ",
+        "unlocked": " "
+	}
+},
+
+"battery": {
+	"states": {
+		"good": 95,
+		"warning": 30,
+		"critical": 15
+	},
+	"format": "{capacity}% {icon}",
+	"format-full": "{capacity}%  {icon}",
+	"format-charging": "{capacity}%  ",
+	"format-plugged": "{capacity}%  ",
+	"format-alt": "{time}  {icon}  ",
+	// "format-good": "", // An empty format will hide the module
+	// "format-full": "",
+	"format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+},
+
+"clock#time": {
+	"interval": 1,
+	"format": "   {:%H:%M:%S}"
+},
+
+"clock#date": {
+	"interval": 10,
+	"format": "    {:%d.%m.%Y}",
+	"tooltip-format": "{:%A, %d.%m.%Y}"
+},
+
+}
